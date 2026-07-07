@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, Suspense } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
+import Image from 'next/image';
 import { useAppState } from '@/context/StateContext';
 import { Book } from '@/mockData';
 
@@ -288,7 +289,7 @@ function CatalogContent() {
                       </button>
 
                       <div className="book-card-img-wrapper">
-                        <img src={book.coverUrl} className="book-card-img" alt={book.title} referrerPolicy="no-referrer" />
+                        <Image src={book.coverUrl} className="book-card-img" alt={book.title} width={240} height={320} style={{ objectFit: 'cover' }} />
                       </div>
                       
                       <div className="book-card-info">

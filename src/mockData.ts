@@ -160,7 +160,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "June Wilder",
     email: 'june-wilder@bookrumors.com',
     bio: "Christopher Bernard Wilder (March 13, 1945 – April 13, 1984), also known as the Beauty Queen Killer and the Snapshot Killer, was an Australian-American serial killer who abducted at least twelve young women and girls, killing eight of them during a six-week, cross-country crime spree in the United States in early 1984. Having committed numerous rapes and sexual assaults in Australia and the United States dating back to 1963, Wilder had developed his methods for victimizing attractive young women, most of whom he enticed by promising to take their photographs. In February 1984, Wilder progressed to murder, beginning in Florida, then traveling more than 6,000 miles (9,700 km) west to California then north and east to New Hampshire, while committing murders, abductions, attempted abductions, and transportation of victims in 16 different states.",
-    profileImage: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&q=80',
+    profileImage: 'placeholder',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -170,7 +170,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Tamara Rene",
     email: 'tamara-rene@bookrumors.com',
     bio: "Haydée Tamara Bunke Bider (November 19, 1937 – August 31, 1967) was an Argentine-born East German revolutionary known for her involvement in leftist politics and liberation movements. Born to communist parents, Bunke joined the Free German Youth at 15 and later studied philosophy or political science at university. She was recruited as an interpreter for the Socialist Unity Party of Germany, where she met Che Guevara during his 1960 visit to Leipzig.",
-    profileImage: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&q=80',
+    profileImage: 'placeholder',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -180,7 +180,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Mary Oldham",
     email: 'mary-oldham@bookrumors.com',
     bio: "Edith Mary Oldham Ellis (née Lees; 9 March 1861 – 14 September 1916) was an English writer and women's rights activist. She was married to the early sexologist Havelock Ellis..",
-    profileImage: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=400&fit=crop&q=80',
+    profileImage: 'placeholder',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -190,7 +190,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Debra Clopton",
     email: 'debra-clopton@bookrumors.com',
     bio: "Beth Wiseman is an American writer of romance fiction from Texas..",
-    profileImage: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop&q=80',
+    profileImage: 'placeholder',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -210,7 +210,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Audrey Davis",
     email: 'audrey-davis@bookrumors.com',
     bio: "Audrey Davis (born May 3, 2002) is a former American artistic gymnast. She competed for the Oklahoma Sooners in NCAA gymnastics, where she was a 5 time national champion..",
-    profileImage: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&q=80',
+    profileImage: 'placeholder',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -220,7 +220,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Karen Renee",
     email: 'karen-renee@bookrumors.com',
     bio: "Karen Renee Fairchild (born September 28, 1969) is an American country music singer and songwriter. She is known as one of the founding members of Little Big Town..",
-    profileImage: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop&q=80',
+    profileImage: 'placeholder',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -230,7 +230,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Jody Hedlund",
     email: 'jody-hedlund@bookrumors.com',
     bio: "John Daniel Singleton (January 6, 1968 – April 28, 2019) was an American director, screenwriter, and producer. He made his feature film debut writing and directing Boyz n the Hood (1991), for which he was nominated for the Academy Award for Best Director, becoming, at age 24, the first African American and youngest nominee in the category. Singleton went on to write and direct other films, such as the romantic drama Poetic Justice (1993), the socially conscious college-based drama Higher Learning (1995), the historical drama Rosewood (1997), the crime film Shaft (2000), the coming-of-age drama Baby Boy (2001) and the action films 2 Fast 2 Furious (2003), and Four Brothers (2005).",
-    profileImage: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&q=80',
+    profileImage: 'placeholder',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -240,7 +240,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Eve Silver",
     email: 'eve-silver@bookrumors.com',
     bio: "Halloween, also known as All Hallows' Eve, or All Saints' Eve,  is a celebration observed in many countries  on 31 October, the eve of the Western Christian feast of All Hallows' Day. It is at the beginning of the observance of Allhallowtide, the time in the Christian liturgical year dedicated to remembering the dead, including saints (hallows), martyrs, and all the faithful departed. In popular culture, Halloween has become a celebration of horror and is associated with the macabre and the supernatural.",
-    profileImage: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&q=80',
+    profileImage: 'placeholder',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -250,7 +250,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Roxie Ray",
     email: 'roxie-ray@bookrumors.com',
     bio: "Ryan Roxie (born Ryan Rosowicz, December 1, 1965) is an American guitarist, singer and songwriter best known as a solo artist and for playing guitar with Alice Cooper, Casablanca, Gilby Clarke, and Slash's Snakepit. Roxie is the primary founder of the System-12 Guitar Method and also hosts the weekly In the Trenches with Ryan Roxie podcast..",
-    profileImage: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&q=80',
+    profileImage: 'placeholder',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -260,7 +260,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Ellis Hunter",
     email: 'ellis-hunter@bookrumors.com',
     bio: "Hunter Ellis (born July 5, 1968 in Alexandria, Virginia) is an American military veteran and television personality. A former naval aviator, he was first noted for his participation on Survivor before going on to host several television shows for the History Channel, including Tactical to Practical; Man, Moment, Machine; and Digging for the Truth, before hosting The CW reality show In Harm's Way. He is the current spokesperson for Atomic Beam flashlight..",
-    profileImage: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=400&fit=crop&q=80',
+    profileImage: 'placeholder',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -280,7 +280,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "MK Pagano",
     email: 'mk-pagano@bookrumors.com',
     bio: "The Multi-slit Solar Explorer (MUSE) is a future NASA mission to study the heating of the solar corona and the impact of solar eruptions and flares that are at the foundation of space weather. MUSE will have two instruments, a multi-slit extreme ultraviolet (EUV) spectrograph and an EUV context imager. The satellite will be launched no earlier than 2027.",
-    profileImage: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=400&fit=crop&q=80',
+    profileImage: 'placeholder',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -290,7 +290,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Tom Hawke",
     email: 'tom-hawke@bookrumors.com',
     bio: "Levon Roan Thurman-Hawke (born January 15, 2002) is an American actor. He is the son of Ethan Hawke and Uma Thurman and younger brother of actress Maya Hawke..",
-    profileImage: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&q=80',
+    profileImage: 'placeholder',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -300,7 +300,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Skyler Ramirez",
     email: 'skyler-ramirez@bookrumors.com',
     bio: "Coastal Championship Wrestling, often referred to simply as CCW is an American independent professional wrestling promotion which was formed in 2004 by Dan Ackerman & former ECW worker, Bruno Sassi in Coral Springs, Florida. The promotion has also been a member of the United Wrestling Network (UWN) since 2025 and has aired their programming as part of a joint syndicated block with the UWN on various television stations. Notable mainstays for the promotion include Marti Belle, Brian Cage, Francisco Ciatso, Fuego Del Sol, Gangrel, Leila Grey, Matthew Justice, Kilynn King, Ariel Levy, Chase Stevens, Super Crazy, Jack Talos, Marina Tucker, Eddie Valentine, American Top Team, Billy Gunn, Kamille and Snuka.",
-    profileImage: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop&q=80',
+    profileImage: 'placeholder',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -310,7 +310,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Lyra Mishon",
     email: 'lyra-mishon@bookrumors.com',
     bio: "Lyra Mishon is a bestselling author and campaign creator.",
-    profileImage: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&q=80',
+    profileImage: 'placeholder',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -320,7 +320,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Toby Neighbors",
     email: 'toby-neighbors@bookrumors.com',
     bio: "Jami Beth Gertz ( JAY-mee; born October 28, 1965) is an American actress and businesswoman. Gertz has performed in the films Crossroads, Quicksilver (both 1986), Less than Zero (1987), The Lost Boys (1987), and Twister (1996). On television, she acted in the 1980s TV series Square Pegs, in the CBS sitcom Still Standing, and in the ABC sitcom The Neighbors.",
-    profileImage: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&q=80',
+    profileImage: 'placeholder',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -330,7 +330,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Victor Molotov & Igor Almazov",
     email: 'victor-molotov-igor-almazov@bookrumors.com',
     bio: "Victor Molotov & Igor Almazov is a bestselling author and campaign creator.",
-    profileImage: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&q=80',
+    profileImage: 'placeholder',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -340,7 +340,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Lola Glass",
     email: 'lola-glass@bookrumors.com',
     bio: "Run Lola Run (German: Lola rennt, lit. 'Lola Runs') is a 1998 German avant-garde thriller film written and directed by Tom Tykwer.  It follows a woman named Lola (Franka Potente) who needs to obtain 100,000 marks (equivalent to €71,000 in 2021) in 20 minutes to save the life of her boyfriend, Manni (Moritz Bleibtreu).",
-    profileImage: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=400&fit=crop&q=80',
+    profileImage: 'placeholder',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -350,7 +350,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Sarah Lamb",
     email: 'sarah-lamb@bookrumors.com',
     bio: "Sarah Lamb (born 17 October 1980) is an American principal ballet dancer with The Royal Ballet, London..",
-    profileImage: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop&q=80',
+    profileImage: 'placeholder',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -370,7 +370,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Pat McTaggart",
     email: 'pat-mctaggart@bookrumors.com',
     bio: "The Battle of Debrecen, called by the Red Army the Debrecen Offensive Operation, was a battle taking place from 6 to 29 October 1944 on the Eastern Front in Hungary during World War II. The offensive was conducted by the 2nd Ukrainian Front under Marshal Rodion Malinovsky. It was opposed by General Maximilian Fretter-Pico's German Sixth Army (II formation) and the allied Hungarian VII Army Corps of Army Group South Ukraine The German and Hungarian units were forced to retreat some 160 km and opposed the 2nd Ukrainian Front, which had Debrecen as its strategic objective..",
-    profileImage: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&q=80',
+    profileImage: 'placeholder',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -380,7 +380,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Emylia Hall",
     email: 'emylia-hall@bookrumors.com',
     bio: "The following is a list of books from the Richard & Judy Book Club, featured on the television chat show. The show was cancelled in 2009, but since 2010 the lists have been continued by the Richard and Judy Book Club, a website run in conjunction with retailer W. H.",
-    profileImage: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop&q=80',
+    profileImage: 'placeholder',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -390,7 +390,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Elle Gray",
     email: 'elle-gray@bookrumors.com',
     bio: "Elle Chapman is an American actress, best known for her role as Paige McIntosh in The Madison (2026)..",
-    profileImage: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&q=80',
+    profileImage: 'placeholder',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -400,7 +400,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Robert Bailey",
     email: 'robert-bailey@bookrumors.com',
     bio: "Robert Bailey Jr. (born October 28, 1989) is an American actor. Beginning his career as a child, Bailey appeared in films Mission to Mars (2000) and Dragonfly (2002), and acted in various television series during the late 1990s and 2000s.",
-    profileImage: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&q=80',
+    profileImage: 'placeholder',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -410,7 +410,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Debra Webb",
     email: 'debra-webb@bookrumors.com',
     bio: "Debra Webb (born 1958) is a USA Today bestselling American author of suspense novels..",
-    profileImage: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&q=80',
+    profileImage: 'placeholder',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -420,7 +420,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Alex Moon",
     email: 'alex-moon@bookrumors.com',
     bio: "Alex \"The Full-Moon\" Moon (born 17 November 1971) born in Liverpool is an English professional feather/super feather/light/light welter/welter/light middleweight boxer of the 1990s and 2000s, who won the World Boxing Union (WBU) Intercontinental Featherweight Title, and Commonwealth super featherweight title, and was a challenger for the British Boxing Board of Control (BBBofC) British featherweight title against Jon Jo Irwin, and International Boxing Organization (IBO) super featherweight title against Affif Djelti[1], his professional fighting weight varied from 125 lb (57 kg; 8 st 13 lb), i.e. featherweight to 149 lb (68 kg; 10 st 9 lb), i.e. light middleweight..",
-    profileImage: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=400&fit=crop&q=80',
+    profileImage: 'placeholder',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -430,7 +430,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Dreda Say Mitchell & Ryan Carter",
     email: 'dreda-say-mitchell-ryan-carter@bookrumors.com',
     bio: "Louise Emma Joseph  (born 1965), known professionally as Dreda Say Mitchell, is a British novelist, broadcaster, journalist and campaigner. She was appointed a Member of the Order of the British Empire (MBE) in 2020 for her services to literature and educational work in prisons. She has co-written many of her books with Tony Mason..",
-    profileImage: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop&q=80',
+    profileImage: 'placeholder',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -440,7 +440,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "James Caine",
     email: 'james-caine@bookrumors.com',
     bio: "James Caine (24 June 1908 – 9 May 1971) was an English professional footballer who played as a central defender. He was on the books of three Football League clubs, but only played in the first-team for Nelson, where he made five league appearances. After leaving Bury in 1932, he spent some time in non-league football, before retiring to work in a factory..",
-    profileImage: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=400&fit=crop&q=80',
+    profileImage: 'placeholder',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -450,7 +450,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "James Patterson & Matt Eversmann",
     email: 'james-patterson-matt-eversmann@bookrumors.com',
     bio: "James Brendan Patterson (born March 22, 1947) is an American author. Among his works are the Alex Cross, Michael Bennett, Women's Murder Club, Maximum Ride, Daniel X, NYPD Red, Witch & Wizard, Private and Middle School series, as well as many stand-alone thrillers, non-fiction, and romance novels. Patterson's books have sold more than 425 million copies, and he was the first person to sell one million e-books.",
-    profileImage: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&q=80',
+    profileImage: 'placeholder',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -470,7 +470,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "David Epstein",
     email: 'david-epstein@bookrumors.com',
     bio: "David Epstein (born 1980) is an American journalist. He is the author of the #1 New York Times best seller Range: Why Generalists Triumph in a Specialized World (2019), The Sports Gene: Inside the Science of Extraordinary Athletic Performance (2013), and Inside the Box: How Constraints Make Us Better (2026), both also New York Times best sellers. Epstein has given two TED talks related to his books, which have together been viewed more than 12 million times.",
-    profileImage: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&q=80',
+    profileImage: 'placeholder',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -480,7 +480,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Lloyd Blankfein",
     email: 'lloyd-blankfein@bookrumors.com',
     bio: "Lloyd Craig Blankfein (born 20 September 1954) is an American billionaire investment banker who has served as senior chairman of Goldman Sachs since 2019, and chairman and chief executive officer (CEO) from 2006 until the end of 2018. Before leading Goldman Sachs as CEO, he was the company's president and chief operating officer (COO) from 2004 to 2006, serving under then-CEO Henry Paulson. Born and raised in New York City, Blankfein attended Harvard University for his undergraduate and law school studies before briefly entering private law practice.",
-    profileImage: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&q=80',
+    profileImage: 'placeholder',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -490,7 +490,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "David Newman",
     email: 'david-newman@bookrumors.com',
     bio: "David Louis Newman (born March 11, 1954) is an American composer and conductor known particularly for his film scores.  In a career spanning more than thirty years, he has composed music for nearly 100 feature films, as well as the 1997 and 1998 versions of the 20th Century Fox fanfare.  He received an Academy Award nomination for writing the score to the 1997 film Anastasia, contributing to the Newmans being the most nominated Academy Award extended family, with a collective 92 nominations in various music categories..",
-    profileImage: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&q=80',
+    profileImage: 'placeholder',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -510,7 +510,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Alexander C. G. Stubb",
     email: 'alexander-c-g-stubb@bookrumors.com',
     bio: "Cai-Göran Alexander Stubb (born 1 April 1968) is a Finnish politician serving as the president of Finland since 2024. A member of the National Coalition Party, he previously served as prime minister of Finland from 2014 to 2015 and has held several senior ministerial posts since 2008. Rising in politics as a researcher specialised in the European Union, he was elected to the European Parliament in 2004 and was appointed Minister for Foreign Affairs in 2008.",
-    profileImage: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop&q=80',
+    profileImage: 'placeholder',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -520,7 +520,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Ryan Roslansky & Aneesh Raman",
     email: 'ryan-roslansky-aneesh-raman@bookrumors.com',
     bio: "Aneesh Raman is Chief Economic Opportunity Officer at LinkedIn. A former CNN war correspondent and speechwriter to President Barack Obama, Raman has focused his career in recent years on the expansion of economic opportunity. He first wrote about that issue in a 2016 guest essay for Fortune Magazine.",
-    profileImage: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=400&fit=crop&q=80',
+    profileImage: 'placeholder',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -530,7 +530,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Bill Gurley",
     email: 'bill-gurley@bookrumors.com',
     bio: "John William Gurley (born May 10, 1966) is an American venture capitalist. Since 1999, he has been a general partner at Benchmark, a Silicon Valley venture capital firm in San Francisco, California..",
-    profileImage: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&q=80',
+    profileImage: 'placeholder',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -540,7 +540,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Miguel A. Gallardo",
     email: 'miguel-a-gallardo@bookrumors.com',
     bio: "Miguel Ángel Félix Gallardo (born January 8, 1946), is a Mexican convicted drug lord  who was one of the founders of the Guadalajara Cartel, which controlled much of the drug trafficking in Mexico and the corridors along the Mexico–United States border in the 1980s. Félix Gallardo was arrested in 1989 on charges of ordering the murder of Drug Enforcement Administration (DEA) agent Enrique \"Kiki\" Camarena. He was serving his 40-year sentence at the Altiplano maximum-security prison but was transferred to a medium-security facility in 2014 due to his declining health..",
-    profileImage: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop&q=80',
+    profileImage: 'placeholder',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'

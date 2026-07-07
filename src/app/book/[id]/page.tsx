@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { useParams, useRouter } from 'next/navigation';
+import Image from 'next/image';
 import { useAppState } from '@/context/StateContext';
 import { Book } from '@/mockData';
 
@@ -87,15 +88,18 @@ export default function BookDetailsPage() {
           
           {/* Left Column: Cover & Action buttons */}
           <div>
-            <div style={{ 
-              borderRadius: 'var(--radius-md)', 
-              overflow: 'hidden', 
-              boxShadow: '0 20px 45px rgba(0,0,0,0.15)',
-              marginBottom: '24px',
-              border: '1px solid var(--border-light)',
-              aspectRatio: '3/4'
-            }}>
-              <img src={book.coverUrl} alt={book.title} style={{ width: '100%', height: '100%', objectFit: 'cover' }} referrerPolicy="no-referrer" />
+            <div 
+              style={{ 
+                borderRadius: 'var(--radius-md)', 
+                overflow: 'hidden', 
+                boxShadow: '0 20px 45px rgba(0,0,0,0.15)',
+                marginBottom: '24px',
+                border: '1px solid var(--border-light)',
+                aspectRatio: '3/4',
+                position: 'relative'
+              }}
+            >
+              <Image src={book.coverUrl} alt={book.title} fill style={{ objectFit: 'cover' }} priority />
             </div>
 
             {/* Read Sample & Video Trailer Action Triggers */}
@@ -190,12 +194,31 @@ export default function BookDetailsPage() {
                 marginBottom: '32px' 
               }}>
                 <div style={{ display: 'flex', gap: '16px', alignItems: 'center', marginBottom: '12px' }}>
-                  <img 
-                    src={author.profileImage} 
-                    alt={author.name} 
-                    style={{ width: '60px', height: '60px', borderRadius: '50%', objectFit: 'cover', border: '2px solid var(--primary)' }} 
-                    referrerPolicy="no-referrer"
-                  />
+                  {author.profileImage === 'placeholder' || !author.profileImage ? (
+                    <div style={{ 
+                      width: '60px', 
+                      height: '60px', 
+                      borderRadius: '50%', 
+                      background: 'var(--primary-light)', 
+                      display: 'flex', 
+                      alignItems: 'center', 
+                      justifyContent: 'center', 
+                      border: '2px solid var(--primary)',
+                      color: 'var(--primary)',
+                      fontSize: '24px',
+                      fontWeight: 'bold'
+                    }}>
+                      {author.name.charAt(0)}
+                    </div>
+                  ) : (
+                    <Image 
+                      src={author.profileImage} 
+                      alt={author.name} 
+                      width={60} 
+                      height={60} 
+                      style={{ borderRadius: '50%', objectFit: 'cover', border: '2px solid var(--primary)' }} 
+                    />
+                  )}
                   <div>
                     <h3 style={{ fontSize: '18px', margin: 0, fontFamily: 'Outfit', color: 'var(--primary)' }}>About the Author</h3>
                     <h4 style={{ fontSize: '14px', margin: '2px 0 0 0', fontWeight: 'bold', color: 'var(--text-dark)' }}>{author.name}</h4>

@@ -263,11 +263,29 @@ export default function AdminPage() {
                           alignItems: 'center'
                         }}
                       >
-                        <img 
-                          src={auth.profileImage} 
-                          alt={auth.name} 
-                          style={{ width: '80px', height: '80px', objectFit: 'cover', borderRadius: '50%', border: '2px solid var(--border-light)' }} 
-                        />
+                        {auth.profileImage === 'placeholder' || !auth.profileImage ? (
+                          <div style={{ 
+                            width: '80px', 
+                            height: '80px', 
+                            borderRadius: '50%', 
+                            background: 'var(--primary-light)', 
+                            display: 'flex', 
+                            alignItems: 'center', 
+                            justifyContent: 'center', 
+                            border: '2px solid var(--primary)',
+                            color: 'var(--primary)',
+                            fontSize: '32px',
+                            fontWeight: 'bold'
+                          }}>
+                            {auth.name.charAt(0)}
+                          </div>
+                        ) : (
+                          <img 
+                            src={auth.profileImage} 
+                            alt={auth.name} 
+                            style={{ width: '80px', height: '80px', objectFit: 'cover', borderRadius: '50%', border: '2px solid var(--border-light)' }} 
+                          />
+                        )}
                         
                         <div>
                           <h4 style={{ fontSize: '18px', margin: '0 0 4px 0' }}>{auth.name}</h4>

@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 import { useAppState } from '../context/StateContext';
 import { Book, INITIAL_AUTHORS } from '../mockData';
@@ -108,7 +109,7 @@ const GenreCarousel: React.FC<GenreCarouselProps> = ({ title, books, genreId, on
             <div className="book-card" style={{ height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
               <div>
                 <div className="book-card-img-wrapper">
-                  <img src={book.coverUrl} className="book-card-img" alt={book.title} referrerPolicy="no-referrer" />
+                  <Image src={book.coverUrl} className="book-card-img" alt={book.title} width={240} height={320} style={{ objectFit: 'cover' }} />
                 </div>
                 <div className="book-card-info" style={{ padding: '16px 0 0 0' }}>
                   <span className="book-card-genre" style={{ color: 'var(--primary)', fontWeight: 'bold', fontSize: '11px', textTransform: 'uppercase' }}>
@@ -249,7 +250,7 @@ export default function HomePage() {
                     onMouseEnter={(e) => { e.currentTarget.style.borderColor = 'var(--primary)'; }}
                     onMouseLeave={(e) => { e.currentTarget.style.borderColor = 'var(--border-light)'; }}
                   >
-                    <img src={book.coverUrl} alt={book.title} style={{ width: '45px', height: '60px', objectFit: 'cover', borderRadius: '4px' }} referrerPolicy="no-referrer" />
+                    <Image src={book.coverUrl} alt={book.title} width={45} height={60} style={{ objectFit: 'cover', borderRadius: '4px' }} />
                     <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
                       <span style={{ fontSize: '13px', fontWeight: '700', color: 'var(--text-dark)', lineHeight: '1.2' }}>{book.title}</span>
                       <span style={{ fontSize: '11px', color: 'var(--text-muted)', margin: '2px 0 4px 0' }}>{book.authorName}</span>
@@ -481,9 +482,12 @@ export default function HomePage() {
                   boxShadow: '20px 20px 40px rgba(0,0,0,0.15)', 
                   borderRadius: 'var(--radius-sm)', 
                   overflow: 'hidden',
-                  maxWidth: '240px'
+                  maxWidth: '240px',
+                  position: 'relative',
+                  width: '240px',
+                  height: '320px'
                 }}>
-                  <img src={topBook.coverUrl} alt={topBook.title} style={{ width: '100%', height: 'auto', display: 'block' }} referrerPolicy="no-referrer" />
+                  <Image src={topBook.coverUrl} alt={topBook.title} fill style={{ objectFit: 'cover' }} priority />
                 </div>
               </div>
 
@@ -571,7 +575,7 @@ export default function HomePage() {
                   <div key={book.id} onClick={() => router.push(`/book/${book.id}`)} style={{ cursor: 'pointer' }}>
                     <div className="book-card" style={{ padding: '12px' }}>
                       <div className="book-card-img-wrapper" style={{ margin: '0 0 12px 0' }}>
-                        <img src={book.coverUrl} className="book-card-img" alt={book.title} referrerPolicy="no-referrer" />
+                        <Image src={book.coverUrl} className="book-card-img" alt={book.title} width={240} height={320} style={{ objectFit: 'cover' }} />
                       </div>
                       <h4 style={{ fontSize: '14px', margin: '0 0 4px 0', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{book.title}</h4>
                       <span style={{ fontSize: '13px', fontWeight: '700', color: 'var(--primary)' }}>${book.price.toFixed(2)}</span>
@@ -590,17 +594,18 @@ export default function HomePage() {
               border: '1px solid var(--border-light)',
               position: 'relative'
             }}>
-              <div style={{ 
-                width: '120px', 
-                height: '120px', 
-                borderRadius: '50%', 
-                overflow: 'hidden', 
-                margin: '0 auto 20px auto',
-                border: '4px solid var(--bg-white)',
-                boxShadow: 'var(--shadow-md)'
-              }}>
-                <img src="/authors/jkrowling.jpg" alt="Rowling" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-              </div>
+                <div style={{ 
+                  width: '120px', 
+                  height: '120px', 
+                  borderRadius: '50%', 
+                  overflow: 'hidden', 
+                  margin: '0 auto 20px auto',
+                  border: '4px solid var(--bg-white)',
+                  boxShadow: 'var(--shadow-md)',
+                  position: 'relative'
+                }}>
+                  <Image src="/authors/jkrowling.jpg" alt="Rowling" fill style={{ objectFit: 'cover' }} />
+                </div>
               <h3 style={{ fontSize: '28px', color: 'var(--primary)', marginBottom: '8px' }}>J. K. Rowling</h3>
               <p style={{ fontWeight: 'bold', fontSize: '14px', color: 'var(--text-dark)', marginBottom: '16px' }}>Author Best Selling</p>
               <p style={{ color: 'var(--text-muted)', fontSize: '12px', lineHeight: '1.6', marginBottom: '24px' }}>
@@ -627,7 +632,7 @@ export default function HomePage() {
               <div key={book.id} onClick={() => router.push(`/book/${book.id}`)} style={{ cursor: 'pointer' }}>
                 <div className="book-card">
                   <div className="book-card-img-wrapper">
-                    <img src={book.coverUrl} className="book-card-img" alt={book.title} referrerPolicy="no-referrer" />
+                    <Image src={book.coverUrl} className="book-card-img" alt={book.title} width={240} height={320} style={{ objectFit: 'cover' }} />
                   </div>
                   <div className="book-card-info">
                     <span className="book-card-genre">{book.genre}</span>
