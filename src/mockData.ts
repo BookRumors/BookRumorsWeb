@@ -117,9 +117,9 @@ export const INITIAL_CATEGORIES: Category[] = [
 export const INITIAL_AUTHORS: Author[] = [
   {
     id: 'author-jkrowling',
-    name: 'J. K. Rowling',
+    name: "J. K. Rowling",
     email: 'jkrowling@bookrumors.com',
-    bio: 'Best Selling Author. Creator of the Harry Potter wizarding world. She has won numerous awards for her children\'s and adult fiction.',
+    bio: "Best Selling Author. Creator of the Harry Potter wizarding world. She has won numerous awards for her children's and adult fiction.",
     profileImage: '/authors/jkrowling.jpg',
     isVerified: true,
     verificationStatus: 'verified',
@@ -127,9 +127,9 @@ export const INITIAL_AUTHORS: Author[] = [
   },
   {
     id: 'author-nicholassparks',
-    name: 'Nicholas Sparks',
+    name: "Nicholas Sparks",
     email: 'nicholas@sparks.com',
-    bio: 'Renowned American novelist and screenwriter. He has published over twenty novels, all of which have been New York Times bestsellers.',
+    bio: "Renowned American novelist and screenwriter. He has published over twenty novels, all of which have been New York Times bestsellers.",
     profileImage: '/authors/nicholassparks.jpg',
     isVerified: true,
     verificationStatus: 'verified',
@@ -137,9 +137,9 @@ export const INITIAL_AUTHORS: Author[] = [
   },
   {
     id: 'author-jamesclear',
-    name: 'James Clear',
+    name: "James Clear",
     email: 'james@clear.com',
-    bio: 'Author of the #1 New York Times bestseller Atomic Habits. He writes about habits, decision-making, and continuous improvement.',
+    bio: "Author of the #1 New York Times bestseller Atomic Habits. He writes about habits, decision-making, and continuous improvement.",
     profileImage: '/authors/jamesclear.jpg',
     isVerified: true,
     verificationStatus: 'verified',
@@ -147,9 +147,9 @@ export const INITIAL_AUTHORS: Author[] = [
   },
   {
     id: 'author-matthaig',
-    name: 'Matt Haig',
+    name: "Matt Haig",
     email: 'matt@haig.com',
-    bio: 'English novelist and journalist. He has written both fiction and non-fiction, often focusing on mental health and speculative fiction.',
+    bio: "English novelist and journalist. He has written both fiction and non-fiction, often focusing on mental health and speculative fiction.",
     profileImage: '/authors/matthaig.jpg',
     isVerified: true,
     verificationStatus: 'verified',
@@ -160,7 +160,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "June Wilder",
     email: 'june-wilder@bookrumors.com',
     bio: "Christopher Bernard Wilder (March 13, 1945 – April 13, 1984), also known as the Beauty Queen Killer and the Snapshot Killer, was an Australian-American serial killer who abducted at least twelve young women and girls, killing eight of them during a six-week, cross-country crime spree in the United States in early 1984. Having committed numerous rapes and sexual assaults in Australia and the United States dating back to 1963, Wilder had developed his methods for victimizing attractive young women, most of whom he enticed by promising to take their photographs. In February 1984, Wilder progressed to murder, beginning in Florida, then traveling more than 6,000 miles (9,700 km) west to California then north and east to New Hampshire, while committing murders, abductions, attempted abductions, and transportation of victims in 16 different states.",
-    profileImage: 'https://upload.wikimedia.org/wikipedia/commons/6/62/Christopher_Wilder.jpg',
+    profileImage: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&q=80',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -170,7 +170,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Tamara Rene",
     email: 'tamara-rene@bookrumors.com',
     bio: "Haydée Tamara Bunke Bider (November 19, 1937 – August 31, 1967) was an Argentine-born East German revolutionary known for her involvement in leftist politics and liberation movements. Born to communist parents, Bunke joined the Free German Youth at 15 and later studied philosophy or political science at university. She was recruited as an interpreter for the Socialist Unity Party of Germany, where she met Che Guevara during his 1960 visit to Leipzig.",
-    profileImage: 'https://upload.wikimedia.org/wikipedia/commons/d/d9/TamaraBunke1.jpg',
+    profileImage: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&q=80',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -180,7 +180,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Mary Oldham",
     email: 'mary-oldham@bookrumors.com',
     bio: "Edith Mary Oldham Ellis (née Lees; 9 March 1861 – 14 September 1916) was an English writer and women's rights activist. She was married to the early sexologist Havelock Ellis..",
-    profileImage: 'https://upload.wikimedia.org/wikipedia/commons/0/06/Edith_Ellis_1914.jpg',
+    profileImage: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=400&fit=crop&q=80',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -190,7 +190,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Debra Clopton",
     email: 'debra-clopton@bookrumors.com',
     bio: "Beth Wiseman is an American writer of romance fiction from Texas..",
-    profileImage: 'https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png',
+    profileImage: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop&q=80',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -200,7 +200,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Jennifer Probst",
     email: 'jennifer-probst@bookrumors.com',
     bio: "Robert Mayer (born October 21, 1959) is a New York Times-bestselling author and the CEO of Cool Gus Publishing. He is a West Point graduate and former Green Beret. Mayer has authored over 60 novels in multiple genres, selling more than 4 million books, including the #1 series Area 51, Atlantis, and The Green Berets.",
-    profileImage: 'https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png',
+    profileImage: 'https://covers.openlibrary.org/b/id/15103399-L.jpg',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -210,7 +210,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Audrey Davis",
     email: 'audrey-davis@bookrumors.com',
     bio: "Audrey Davis (born May 3, 2002) is a former American artistic gymnast. She competed for the Oklahoma Sooners in NCAA gymnastics, where she was a 5 time national champion..",
-    profileImage: 'https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png',
+    profileImage: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&q=80',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -220,7 +220,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Karen Renee",
     email: 'karen-renee@bookrumors.com',
     bio: "Karen Renee Fairchild (born September 28, 1969) is an American country music singer and songwriter. She is known as one of the founding members of Little Big Town..",
-    profileImage: 'https://upload.wikimedia.org/wikipedia/commons/8/85/Karen_Fairchild%2C_Nashville%2C_2024.jpg',
+    profileImage: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop&q=80',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -230,7 +230,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Jody Hedlund",
     email: 'jody-hedlund@bookrumors.com',
     bio: "John Daniel Singleton (January 6, 1968 – April 28, 2019) was an American director, screenwriter, and producer. He made his feature film debut writing and directing Boyz n the Hood (1991), for which he was nominated for the Academy Award for Best Director, becoming, at age 24, the first African American and youngest nominee in the category. Singleton went on to write and direct other films, such as the romantic drama Poetic Justice (1993), the socially conscious college-based drama Higher Learning (1995), the historical drama Rosewood (1997), the crime film Shaft (2000), the coming-of-age drama Baby Boy (2001) and the action films 2 Fast 2 Furious (2003), and Four Brothers (2005).",
-    profileImage: 'https://upload.wikimedia.org/wikipedia/commons/c/ce/John_Singleton_2000.jpg',
+    profileImage: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&q=80',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -240,7 +240,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Eve Silver",
     email: 'eve-silver@bookrumors.com',
     bio: "Halloween, also known as All Hallows' Eve, or All Saints' Eve,  is a celebration observed in many countries  on 31 October, the eve of the Western Christian feast of All Hallows' Day. It is at the beginning of the observance of Allhallowtide, the time in the Christian liturgical year dedicated to remembering the dead, including saints (hallows), martyrs, and all the faithful departed. In popular culture, Halloween has become a celebration of horror and is associated with the macabre and the supernatural.",
-    profileImage: 'https://upload.wikimedia.org/wikipedia/commons/a/a2/Jack-o%27-Lantern_2003-10-31.jpg',
+    profileImage: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&q=80',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -250,7 +250,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Roxie Ray",
     email: 'roxie-ray@bookrumors.com',
     bio: "Ryan Roxie (born Ryan Rosowicz, December 1, 1965) is an American guitarist, singer and songwriter best known as a solo artist and for playing guitar with Alice Cooper, Casablanca, Gilby Clarke, and Slash's Snakepit. Roxie is the primary founder of the System-12 Guitar Method and also hosts the weekly In the Trenches with Ryan Roxie podcast..",
-    profileImage: 'https://upload.wikimedia.org/wikipedia/commons/d/df/2024_Alice_Cooper_-_by_2eight_-_9SC9127_%28cropped%29.jpg',
+    profileImage: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&q=80',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -260,7 +260,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Ellis Hunter",
     email: 'ellis-hunter@bookrumors.com',
     bio: "Hunter Ellis (born July 5, 1968 in Alexandria, Virginia) is an American military veteran and television personality. A former naval aviator, he was first noted for his participation on Survivor before going on to host several television shows for the History Channel, including Tactical to Practical; Man, Moment, Machine; and Digging for the Truth, before hosting The CW reality show In Harm's Way. He is the current spokesperson for Atomic Beam flashlight..",
-    profileImage: 'https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png',
+    profileImage: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=400&fit=crop&q=80',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -270,7 +270,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Andrew Joseph White",
     email: 'andrew-joseph-white@bookrumors.com',
     bio: "Andrew Joseph White is an American young adult fiction author. He is best known for New York Times bestselling dystopian young adult novel Hell Followed with Us (2022)..",
-    profileImage: 'https://upload.wikimedia.org/wikipedia/commons/6/65/Andrew_Joseph_White5188055.jpg',
+    profileImage: 'https://covers.openlibrary.org/b/id/15227886-L.jpg',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -280,7 +280,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "MK Pagano",
     email: 'mk-pagano@bookrumors.com',
     bio: "The Multi-slit Solar Explorer (MUSE) is a future NASA mission to study the heating of the solar corona and the impact of solar eruptions and flares that are at the foundation of space weather. MUSE will have two instruments, a multi-slit extreme ultraviolet (EUV) spectrograph and an EUV context imager. The satellite will be launched no earlier than 2027.",
-    profileImage: 'https://upload.wikimedia.org/wikipedia/commons/9/9e/Multi-slit_Solar_Explorer.webp',
+    profileImage: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=400&fit=crop&q=80',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -290,7 +290,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Tom Hawke",
     email: 'tom-hawke@bookrumors.com',
     bio: "Levon Roan Thurman-Hawke (born January 15, 2002) is an American actor. He is the son of Ethan Hawke and Uma Thurman and younger brother of actress Maya Hawke..",
-    profileImage: 'https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png',
+    profileImage: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&q=80',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -300,7 +300,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Skyler Ramirez",
     email: 'skyler-ramirez@bookrumors.com',
     bio: "Coastal Championship Wrestling, often referred to simply as CCW is an American independent professional wrestling promotion which was formed in 2004 by Dan Ackerman & former ECW worker, Bruno Sassi in Coral Springs, Florida. The promotion has also been a member of the United Wrestling Network (UWN) since 2025 and has aired their programming as part of a joint syndicated block with the UWN on various television stations. Notable mainstays for the promotion include Marti Belle, Brian Cage, Francisco Ciatso, Fuego Del Sol, Gangrel, Leila Grey, Matthew Justice, Kilynn King, Ariel Levy, Chase Stevens, Super Crazy, Jack Talos, Marina Tucker, Eddie Valentine, American Top Team, Billy Gunn, Kamille and Snuka.",
-    profileImage: 'https://upload.wikimedia.org/wikipedia/commons/f/f8/CCW_Logo_%282018_-_today%29.png',
+    profileImage: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop&q=80',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -310,7 +310,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Lyra Mishon",
     email: 'lyra-mishon@bookrumors.com',
     bio: "Lyra Mishon is a bestselling author and campaign creator.",
-    profileImage: 'https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png',
+    profileImage: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&q=80',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -320,7 +320,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Toby Neighbors",
     email: 'toby-neighbors@bookrumors.com',
     bio: "Jami Beth Gertz ( JAY-mee; born October 28, 1965) is an American actress and businesswoman. Gertz has performed in the films Crossroads, Quicksilver (both 1986), Less than Zero (1987), The Lost Boys (1987), and Twister (1996). On television, she acted in the 1980s TV series Square Pegs, in the CBS sitcom Still Standing, and in the ABC sitcom The Neighbors.",
-    profileImage: 'https://upload.wikimedia.org/wikipedia/commons/3/3e/Jami_Gertz_2008.jpg',
+    profileImage: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&q=80',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -330,7 +330,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Victor Molotov & Igor Almazov",
     email: 'victor-molotov-igor-almazov@bookrumors.com',
     bio: "Victor Molotov & Igor Almazov is a bestselling author and campaign creator.",
-    profileImage: 'https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png',
+    profileImage: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&q=80',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -340,7 +340,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Lola Glass",
     email: 'lola-glass@bookrumors.com',
     bio: "Run Lola Run (German: Lola rennt, lit. 'Lola Runs') is a 1998 German avant-garde thriller film written and directed by Tom Tykwer.  It follows a woman named Lola (Franka Potente) who needs to obtain 100,000 marks (equivalent to €71,000 in 2021) in 20 minutes to save the life of her boyfriend, Manni (Moritz Bleibtreu).",
-    profileImage: 'https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png',
+    profileImage: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=400&fit=crop&q=80',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -350,7 +350,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Sarah Lamb",
     email: 'sarah-lamb@bookrumors.com',
     bio: "Sarah Lamb (born 17 October 1980) is an American principal ballet dancer with The Royal Ballet, London..",
-    profileImage: 'https://upload.wikimedia.org/wikipedia/commons/5/51/Sarah_Lamb_Fin_du_jour.jpg',
+    profileImage: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop&q=80',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -370,7 +370,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Pat McTaggart",
     email: 'pat-mctaggart@bookrumors.com',
     bio: "The Battle of Debrecen, called by the Red Army the Debrecen Offensive Operation, was a battle taking place from 6 to 29 October 1944 on the Eastern Front in Hungary during World War II. The offensive was conducted by the 2nd Ukrainian Front under Marshal Rodion Malinovsky. It was opposed by General Maximilian Fretter-Pico's German Sixth Army (II formation) and the allied Hungarian VII Army Corps of Army Group South Ukraine The German and Hungarian units were forced to retreat some 160 km and opposed the 2nd Ukrainian Front, which had Debrecen as its strategic objective..",
-    profileImage: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/Bundesarchiv_Bild_101I-244-2324-09%2C_Ungarn%2C_Debrecen%2C_Panzer_V_%22Panther%22.jpg',
+    profileImage: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&q=80',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -380,7 +380,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Emylia Hall",
     email: 'emylia-hall@bookrumors.com',
     bio: "The following is a list of books from the Richard & Judy Book Club, featured on the television chat show. The show was cancelled in 2009, but since 2010 the lists have been continued by the Richard and Judy Book Club, a website run in conjunction with retailer W. H.",
-    profileImage: 'https://upload.wikimedia.org/wikipedia/commons/6/60/Richard_and_Judy_Book_Club%2C_W.H._Smith%2C_Enfield.jpg',
+    profileImage: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop&q=80',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -390,7 +390,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Elle Gray",
     email: 'elle-gray@bookrumors.com',
     bio: "Elle Chapman is an American actress, best known for her role as Paige McIntosh in The Madison (2026)..",
-    profileImage: 'https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png',
+    profileImage: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&q=80',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -400,7 +400,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Robert Bailey",
     email: 'robert-bailey@bookrumors.com',
     bio: "Robert Bailey Jr. (born October 28, 1989) is an American actor. Beginning his career as a child, Bailey appeared in films Mission to Mars (2000) and Dragonfly (2002), and acted in various television series during the late 1990s and 2000s.",
-    profileImage: 'https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png',
+    profileImage: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&q=80',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -410,7 +410,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Debra Webb",
     email: 'debra-webb@bookrumors.com',
     bio: "Debra Webb (born 1958) is a USA Today bestselling American author of suspense novels..",
-    profileImage: 'https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png',
+    profileImage: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&q=80',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -420,7 +420,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Alex Moon",
     email: 'alex-moon@bookrumors.com',
     bio: "Alex \"The Full-Moon\" Moon (born 17 November 1971) born in Liverpool is an English professional feather/super feather/light/light welter/welter/light middleweight boxer of the 1990s and 2000s, who won the World Boxing Union (WBU) Intercontinental Featherweight Title, and Commonwealth super featherweight title, and was a challenger for the British Boxing Board of Control (BBBofC) British featherweight title against Jon Jo Irwin, and International Boxing Organization (IBO) super featherweight title against Affif Djelti[1], his professional fighting weight varied from 125 lb (57 kg; 8 st 13 lb), i.e. featherweight to 149 lb (68 kg; 10 st 9 lb), i.e. light middleweight..",
-    profileImage: 'https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png',
+    profileImage: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=400&fit=crop&q=80',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -430,7 +430,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Dreda Say Mitchell & Ryan Carter",
     email: 'dreda-say-mitchell-ryan-carter@bookrumors.com',
     bio: "Louise Emma Joseph  (born 1965), known professionally as Dreda Say Mitchell, is a British novelist, broadcaster, journalist and campaigner. She was appointed a Member of the Order of the British Empire (MBE) in 2020 for her services to literature and educational work in prisons. She has co-written many of her books with Tony Mason..",
-    profileImage: 'https://upload.wikimedia.org/wikipedia/commons/1/14/Dreda_Say_Mitchell_and_Tony_Mason.jpg',
+    profileImage: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop&q=80',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -440,7 +440,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "James Caine",
     email: 'james-caine@bookrumors.com',
     bio: "James Caine (24 June 1908 – 9 May 1971) was an English professional footballer who played as a central defender. He was on the books of three Football League clubs, but only played in the first-team for Nelson, where he made five league appearances. After leaving Bury in 1932, he spent some time in non-league football, before retiring to work in a factory..",
-    profileImage: 'https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png',
+    profileImage: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=400&fit=crop&q=80',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -450,7 +450,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "James Patterson & Matt Eversmann",
     email: 'james-patterson-matt-eversmann@bookrumors.com',
     bio: "James Brendan Patterson (born March 22, 1947) is an American author. Among his works are the Alex Cross, Michael Bennett, Women's Murder Club, Maximum Ride, Daniel X, NYPD Red, Witch & Wizard, Private and Middle School series, as well as many stand-alone thrillers, non-fiction, and romance novels. Patterson's books have sold more than 425 million copies, and he was the first person to sell one million e-books.",
-    profileImage: 'https://upload.wikimedia.org/wikipedia/commons/1/12/James_Patterson_at_the_Library_of_Congress_National_Book_Festival_on_August_24%2C_2024_%28cropped%29.jpg',
+    profileImage: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&q=80',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -470,7 +470,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "David Epstein",
     email: 'david-epstein@bookrumors.com',
     bio: "David Epstein (born 1980) is an American journalist. He is the author of the #1 New York Times best seller Range: Why Generalists Triumph in a Specialized World (2019), The Sports Gene: Inside the Science of Extraordinary Athletic Performance (2013), and Inside the Box: How Constraints Make Us Better (2026), both also New York Times best sellers. Epstein has given two TED talks related to his books, which have together been viewed more than 12 million times.",
-    profileImage: 'https://upload.wikimedia.org/wikipedia/commons/2/2b/Sportsfile_%28Web_Summit%29_%2815523969837%29.jpg',
+    profileImage: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&q=80',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -480,7 +480,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Lloyd Blankfein",
     email: 'lloyd-blankfein@bookrumors.com',
     bio: "Lloyd Craig Blankfein (born 20 September 1954) is an American billionaire investment banker who has served as senior chairman of Goldman Sachs since 2019, and chairman and chief executive officer (CEO) from 2006 until the end of 2018. Before leading Goldman Sachs as CEO, he was the company's president and chief operating officer (COO) from 2004 to 2006, serving under then-CEO Henry Paulson. Born and raised in New York City, Blankfein attended Harvard University for his undergraduate and law school studies before briefly entering private law practice.",
-    profileImage: 'https://upload.wikimedia.org/wikipedia/commons/2/27/Lloyd_C._Blankfein.jpg',
+    profileImage: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&q=80',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -490,7 +490,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "David Newman",
     email: 'david-newman@bookrumors.com',
     bio: "David Louis Newman (born March 11, 1954) is an American composer and conductor known particularly for his film scores.  In a career spanning more than thirty years, he has composed music for nearly 100 feature films, as well as the 1997 and 1998 versions of the 20th Century Fox fanfare.  He received an Academy Award nomination for writing the score to the 1997 film Anastasia, contributing to the Newmans being the most nominated Academy Award extended family, with a collective 92 nominations in various music categories..",
-    profileImage: 'https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png',
+    profileImage: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&q=80',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -500,7 +500,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Stewart Brand",
     email: 'stewart-brand@bookrumors.com',
     bio: "Stewart Brand (born December 14, 1938) is an American project developer and writer, best known as the co-founder and editor of the Whole Earth Catalog. Other organizations he has founded include the WELL, the Global Business Network, and the Long Now Foundation. He is the author of several books, most recently Whole Earth Discipline: An Ecopragmatist Manifesto and Maintenance: Of Everything..",
-    profileImage: 'https://upload.wikimedia.org/wikipedia/commons/6/66/Stewart_Brand_%2849624956948%29.jpg',
+    profileImage: 'https://covers.openlibrary.org/b/id/15215001-L.jpg',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -510,7 +510,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Alexander C. G. Stubb",
     email: 'alexander-c-g-stubb@bookrumors.com',
     bio: "Cai-Göran Alexander Stubb (born 1 April 1968) is a Finnish politician serving as the president of Finland since 2024. A member of the National Coalition Party, he previously served as prime minister of Finland from 2014 to 2015 and has held several senior ministerial posts since 2008. Rising in politics as a researcher specialised in the European Union, he was elected to the European Parliament in 2004 and was appointed Minister for Foreign Affairs in 2008.",
-    profileImage: 'https://upload.wikimedia.org/wikipedia/commons/4/42/Finnish_President_Alexander_Stubb_arrives_to_the_South_Portico_of_the_White_House_for_a_meeting_with_President_Donald_Trump_%2854732037329%29_%28cropped_2%29.jpg',
+    profileImage: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop&q=80',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -520,7 +520,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Ryan Roslansky & Aneesh Raman",
     email: 'ryan-roslansky-aneesh-raman@bookrumors.com',
     bio: "Aneesh Raman is Chief Economic Opportunity Officer at LinkedIn. A former CNN war correspondent and speechwriter to President Barack Obama, Raman has focused his career in recent years on the expansion of economic opportunity. He first wrote about that issue in a 2016 guest essay for Fortune Magazine.",
-    profileImage: 'https://upload.wikimedia.org/wikipedia/commons/3/34/Book_Event_for_%27West_Wingers%27_in_Boston.jpg',
+    profileImage: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=400&fit=crop&q=80',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -530,7 +530,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Bill Gurley",
     email: 'bill-gurley@bookrumors.com',
     bio: "John William Gurley (born May 10, 1966) is an American venture capitalist. Since 1999, he has been a general partner at Benchmark, a Silicon Valley venture capital firm in San Francisco, California..",
-    profileImage: 'https://upload.wikimedia.org/wikipedia/commons/6/65/Bill_Gurley%2C_2013.jpg',
+    profileImage: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&q=80',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -540,7 +540,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Miguel A. Gallardo",
     email: 'miguel-a-gallardo@bookrumors.com',
     bio: "Miguel Ángel Félix Gallardo (born January 8, 1946), is a Mexican convicted drug lord  who was one of the founders of the Guadalajara Cartel, which controlled much of the drug trafficking in Mexico and the corridors along the Mexico–United States border in the 1980s. Félix Gallardo was arrested in 1989 on charges of ordering the murder of Drug Enforcement Administration (DEA) agent Enrique \"Kiki\" Camarena. He was serving his 40-year sentence at the Altiplano maximum-security prison but was transferred to a medium-security facility in 2014 due to his declining health..",
-    profileImage: 'https://upload.wikimedia.org/wikipedia/commons/7/7d/Mugshot_miguel_%C3%A1ngel_f%C3%A9lix_gallardo.png',
+    profileImage: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop&q=80',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -550,7 +550,7 @@ export const INITIAL_AUTHORS: Author[] = [
     name: "Joseph Nguyen",
     email: 'joseph-nguyen@bookrumors.com',
     bio: "Joseph Nguyễn Năng (born 24 November 1953) is a Vietnamese Catholic prelate who has been a bishop since 2009 and serving as Archbishop of Hồ Chí Minh City since 2019. He has been president of the Catholic Bishops' Conference of Vietnam since October 2022..",
-    profileImage: 'https://upload.wikimedia.org/wikipedia/commons/9/90/%C4%90%E1%BB%A9c_T%E1%BB%95ng_Gi%C3%A1m_m%E1%BB%A5c_Giuse_Nguy%E1%BB%85n_N%C4%83ng.jpg',
+    profileImage: 'https://covers.openlibrary.org/b/id/15156151-L.jpg',
     isVerified: true,
     verificationStatus: 'verified',
     joinDate: '2026-07-06'
@@ -572,8 +572,8 @@ export const INITIAL_BOOKS: Book[] = [
     price: 12.99,
     originalPrice: 12.99,
     summary: "HEART OF STONE The Stone Creek Legacy, Book 1 He didn't need saving. She didn't ask permission. Cole Stone has spent ten years holding his family's Montana ranch together with barbed wire and stubbornness. He doesn't need a partner. He doesn't need help. And he definitely doesn't need the sharp-tongued city woman who just inherited half of everything he's bled to protect. Maya Al-Jamil didn't come to Stone Creek to fall for a grumpy cowboy with more pride than common sense. She came to sell her share and get back to Chicago. But a clause in the will changes everything: six months of co-habitation, or they both lose the land. Forced under the same roof, they clash over everything—spreadsheets versus sweat, tradition versus innovation, silence versus the truth neither wants to speak. She thinks he's drowning. He thinks she's a distraction he can't afford. Then the bank calls the note. The impossible math demands a sacrifice. And Maya makes a choice that will either save the ranch or destroy whatever is building between them. \"I love you more than I hate tourists.\" When the dust settles, Cole will have to decide what he's really fighting for: a legacy of stone and silence, or the woman who taught him that some walls are meant to fall. Heart of Stone is a steamy enemies-to-lovers Western romance featuring a grumpy rancher, a sunshine heroine who refuses to quit, forced proximity, and a guaranteed happily ever after. Book 1 of The Stone Creek Legacy. Each book follows a different Stone brother and can be read as a standalone. DISCOVER THE JUNE WILDER UNIVERSE: STONE CREEK LEGACY (The Western Saga) Genre: Western Romance / Family Saga Vibe: Epic, Adventurous, and Emotional Length: 130 - 220 pages Perfect for: Binge-reading marathons. SILVER RIDGE DAILIES (The Short Reads) Genre: Daily Life / Small-Town Drama Vibe: Daily, Intimate, and Heartwarming Length: Short Episodes (approx. 80 pages) Perfect for: A quick coffee break or commute. THE SILVER CREEK ARCHIVE MYSTERIES (The New Series!) Genre: Cozy Mystery / Amateur Sleuth Vibe: Fast-paced, Intriguing, yet Comforting Length: Novels Box (4 stories 400 pages) Perfect for: A full weekend of \"just one more chapter.\"",
-    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0G4K684TT.01._LZZZZZZZ_.jpg',
-    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0G4K684TT.01._LZZZZZZZ_.jpg'],
+    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0G4K684TT.01.LZZZZZZZ.jpg',
+    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0G4K684TT.01.LZZZZZZZ.jpg'],
     purchaseLinks: {
       amazon: 'https://www.amazon.com/dp/B0G4K684TT'
     },
@@ -605,8 +605,8 @@ export const INITIAL_BOOKS: Book[] = [
     price: 10.99,
     originalPrice: 10.99,
     summary: "This new city was supposed to keep me alive, not burn me to the ground. You know that moment when you realize you’re supremely screwed? That’s me when I realize I’m trapped in my building and see smoke. In the last twenty-four hours I’ve been cheated on, quit my job, and insulted a sexy stranger — now I’m staring death in the face and even my family doesn’t know where I am. At this point, I really don’t care who busts me out, so long as I live to tell the tale. But when a brick wall of a man comes to my rescue, he also brings electric blue eyes, a gorgeous smile, and a burning need to fix problems. It’s official: Nate Miller is the quintessential hot firefighter. When Nate offers a solution to my jobless and homeless dilemmas, I know I’d be a fool not to accept. But he doesn’t know I’ve been running from a complicated past that is now hot on my heels… As the heat ramps up between us, I know I could be putting more than our hearts in danger. But Nate doesn’t want to be kept safe. I’m a risk he’s willing to take. Living with Fire is book one of an interconnected standalone series, With Fire, featuring first person, dual POV.",
-    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0D89RXBZM.01._LZZZZZZZ_.jpg',
-    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0D89RXBZM.01._LZZZZZZZ_.jpg'],
+    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0D89RXBZM.01.LZZZZZZZ.jpg',
+    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0D89RXBZM.01.LZZZZZZZ.jpg'],
     purchaseLinks: {
       amazon: 'https://www.amazon.com/dp/B0D89RXBZM'
     },
@@ -638,8 +638,8 @@ export const INITIAL_BOOKS: Book[] = [
     price: 11.99,
     originalPrice: 11.99,
     summary: "What happens when the \"one that got away\" becomes the one you report to? In Mary Oldham’s sparkling contemporary romance, A Paris Affair , Daisy Miller is ready for a fresh start. After a devastating legal battle with her former boss—left her career in ruins, she’s pinning all her hopes on a high-stakes marketing role at the prestigious Stark International Hotels. But just days before her final interview, a chance encounter at a Portland café changes everything. She meets \"Alex,\" a handsome, green-eyed stranger who claims to be a \"glorified accountant\". Following a whirlwind 24 hours of magic, laughter, and a life-altering kiss on a Ferris wheel, he vanishes—leaving Daisy with more questions than answers. The professional complication: Daisy walks into the CEO’s office for her interview, only to find that the \"accountant\" from the café is actually Garrison Alexander Stark—the billionaire \"Hotel Baron\" himself. Alex has a reputation for being a ruthless visionary and a legendary womanizer, but he sees something in Daisy that he can't let go. He hires her on the spot, but with one condition: their relationship is strictly professional. The City of Light: When Alex sends Daisy to Paris to save a renovation disaster—a high-society anniversary party that’s inexplicably themed as an \"American Barbeque\"—the professional lines begin to blur. Under the glow of the Eiffel Tower, secret identities and corporate rules give way to an undeniable passion. From the rain-slicked streets of Portland to the opulent suites of Paris, A Paris Affair is a story of reclaiming your worth, finding love in the most unexpected places, and discovering that some affairs are meant to last a lifetime. Indulge in Book 1 of the Hotel Baron Series. Because in Paris, the only thing more dangerous than a business deal is a broken heart. About the Author Mary Oldham is a Writers Guild of America member, a three-time Golden Heart Finalist with the Romance Writers of America, and a prolific author of contemporary romance and romantic suspense. She is best known for her debut novel, The Silver Linings Wedding Dress Auction , which was optioned by Dooney Pictures (Crown Media / Hallmark). Mary was asked to adapt the book into a screenplay, officially cementing her WGA induction in 2024. Don't miss any of Mary Oldham's unforgettable stories : Series Romance: The Silver Linings Wedding Dress Auction , The Silver Linings Series Book 1 Sisters Before Misters , The Silver Linings Series, Book 2 Enchanted , The Silver Linings Series, Book 3 A Paris Affair , Hotel Baron, Book 1 A Summer Affair, Hotel Baron, Book 2 A Roman Affair, Hotel Baron, Book 3 A London Affair , Hotel Baron, Book 4 Sage's Redemption , The Aphrodite Series, Book 1 Toni's Secr et, The Aphrodite Series, Book 2 Roxie's Circus , The Aphrodite Series, Book 3 Kimberly's Redemption , The Aphrodite Series, Book 4 The Poison Garden , Book 1, The Poison Garden Series Madam Emma’s Love Emporium , Book 2, The Poison Garden Series The Voice of Reason, Book 3, The Poison Garden Series Single Titles: CRUSH Instant Daddy, Just Add Rum A Gingerbread Christmas Audiobooks Available on Audible: The Silver Linings Wedding Dress Auction , The Silver Linings Series Book 1 The Poison Garden , Book 1, The Poison Garden Series www.maryoldham.com",
-    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B09LRFN9LD.01._LZZZZZZZ_.jpg',
-    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B09LRFN9LD.01._LZZZZZZZ_.jpg'],
+    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B09LRFN9LD.01.LZZZZZZZ.jpg',
+    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B09LRFN9LD.01.LZZZZZZZ.jpg'],
     purchaseLinks: {
       amazon: 'https://www.amazon.com/dp/B09LRFN9LD'
     },
@@ -671,8 +671,8 @@ export const INITIAL_BOOKS: Book[] = [
     price: 9.99,
     originalPrice: 9.99,
     summary: "Columnist, Molly Popp’s syndicated column is a must read and responsible for helping draw attention to Mule Hollow’s national “wives wanted” ad campaign, it's a must read across the country and hopefully her ticket to a reporting job on Times Square... But there is a problem , lately she’s been featuring ex-bullfighter Bob Jacobs, reader favorite, more than he’s comfortable with and he’s just put his booted foot down firm…only turns out he’s too late to stop the featured story already coming off the presses. Suddenly Bob-hunting-women are turning up in places they shouldn’t be. And when he gets hurt saving one from a rampaging bull Molly must step in to nurse him back to health. Bob’s not happy about the circus Molly has turned his life into and now he’s dealing with the sparks that are suddenly heating up between him and Molly, the one woman he’s determined not to fall for. Because if there is one thing his past has taught him it’s that a reporter will give up anything, even love, if the story or the byline is big enough. Will love bring these two together? From award-winning author Debra Clopton comes the Texas Matchmakers series—about three older women who set off a nationally advertised \"Wives Wanted Campaign\" to bring women to their small town of Mule Hollow to marry the lonesome cowboys. A far fetched idea that's working—look out fellas, the women are coming one car at a time! Note: This book was previously published as Dream a Little Dream. This edition includes some fun extras. More Books in Texas Matchmakers 1-Dream With Me, Cowboy 2-Be My Love, Cowboy 3-This Heart's Your, Cowboy 4-Hold Me, Cowboy 5-Be Mine, Cowboy 6-Operation: Married by Christmas 7-Cherish Me, Cowboy 8-Surprise Me, Cowboy 9-Serenade Me, Cowboy 10-Return To Me, Cowboy 11-Love Me, Cowboy 12-Ride With Me, Cowboy 13-Dance With Me, Cowboy 14-Treasure Me, Cowboy 15-Rescue Me, Cowboy 16-Complete Me, Cowboy (Book 3) 17-Sweet Talk Me, Cowboy (Book 4) 18-Heart of A Cowboy 19-Trust of A Cowboy 20-True Love of A Cowboy New Horizon Ranch Mule Hollow 1. Her Texas Cowboy: Cliff 2. Rescued by Her Cowboy: Rafe 3. Protected by Her Cowboy: Chase 4. Loving Her Best Friend Cowboy: Ty 5. Family For A Cowboy: Dalton 6. The Mission of Her Cowboy: Treb 7. Maddie's Secret Baby: short story 8. This Cowgirl Loves This Cowboy: Austin Sweet Clean and Wholesome and Christian stories full of laughter, love and emotion.",
-    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B06XG4DS7S.01._LZZZZZZZ_.jpg',
-    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B06XG4DS7S.01._LZZZZZZZ_.jpg'],
+    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B06XG4DS7S.01.LZZZZZZZ.jpg',
+    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B06XG4DS7S.01.LZZZZZZZ.jpg'],
     purchaseLinks: {
       amazon: 'https://www.amazon.com/dp/B06XG4DS7S'
     },
@@ -704,8 +704,8 @@ export const INITIAL_BOOKS: Book[] = [
     price: 13.99,
     originalPrice: 13.99,
     summary: "From New York Times bestselling author Jennifer Probst, discover The Reluctant Flirt… Just one night… After discovering her husband’s affair, Sierra Lourde flees to New York City for a little damage control—and a lot of wine. A tipsy night in a bar with a charming stranger seems like the perfect way to forget her troubles. No names, no promises, just one night to escape reality and regain her confidence. The next morning, mortified by her vulnerability, she flees without looking back. But who needs closure, right? But one night changes everything… Sierra has reinvented herself as the proud owner of Flirt, a trendy boutique in the Outer Banks. Life is good—until Kane Masterson, the man she left behind, walks back into town. And of course, he’s now the developer whose big new project threatens to bulldoze her beloved shop. Kane needs this deal to save his career, but Sierra’s not about to let him demolish her hard-won success. With sparks flying, sarcastic jabs turning into lingering looks, and a family wedding forcing them into close quarters, Sierra and Kane find themselves tangled in a battle of wills—and hearts. But now he has to choose: reclaim his career or risk everything for a second chance with the one woman he can’t forget. Reviews for The Reluctant Flirt: “Probst writes the evolution of the characters, moving from denial to acceptance to enthusiasm in a way that just comes off as authentic and real life.” ~ Naialana Reads “...a terrific contemporary romance with heart, soul, and emotion.” ~ Sapphyria's Books “A great, feel good romance with all the swoony feels.” ~ lianareadsblog “For readers who crave a romance with heart, heat, and a touch of beach-town magic, Jennifer Probst delivers again.” ~ the_romance_regent “If you enjoy cute small town romance, a couple who grows together, and comedy thrown in then pick this book up!” ~ bookdragonart3mis",
-    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0DG7S3PWR.01._LZZZZZZZ_.jpg',
-    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0DG7S3PWR.01._LZZZZZZZ_.jpg'],
+    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0DG7S3PWR.01.LZZZZZZZ.jpg',
+    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0DG7S3PWR.01.LZZZZZZZ.jpg'],
     purchaseLinks: {
       amazon: 'https://www.amazon.com/dp/B0DG7S3PWR'
     },
@@ -737,8 +737,8 @@ export const INITIAL_BOOKS: Book[] = [
     price: 10.99,
     originalPrice: 10.99,
     summary: "A heartwarming paranormal cosy romance set in a small Scottish village, featuring a charming genie, three wishes, and a gentle second chance love story filled with warmth, community, and a touch of fate . Love, magic lamps, and bonnie Scotland… what could possibly go wrong? Jinnie Cooper’s year so far: Dumped by fiancé? Check. Lost job? Check. Moved to a cottage the size of a shoebox? Check. Accidentally released a genie from a lamp. Wait, what? Retreating to the Scottish village of Cranley feels like the perfect place to begin again. A cosy cottage, a job at the local antique shop, and neighbours who look out for one another are exactly what she needs. Romance, however, is firmly off the table. That becomes harder to manage when her new boss Sam proves steady, thoughtful, and quietly impossible to ignore. It becomes even harder when her unexpected houseguest turns out to be a very real genie, bound to grant three wishes and convinced that destiny has plans of its own. With three wishes she is afraid to waste and a heart she is afraid to risk, Jinnie must decide whether magic is something to fear or something to trust. Because in Cranley, sometimes the smallest spark of magic is all it takes to change everything. Perfect for readers who love small-town charm, gentle paranormal twists, and uplifting second chance romance, A Wish for Jinnie is a heartwarming story about fate, friendship, and finding the courage to believe in love again. If you adore cosy settings, magical sparks, and heroes who steal your heart quietly, this enchanting Scottish romance is your next comfort read. __________________________________________________________________ Praise for the Cranley Wishes series: ★ ★ ★ ★ ★ If you love laugh out loud humour, surreal plots and sweet romances then this is for you. ★ ★ ★ ★ ★ Before you start this book, you must prepare yourself – you will smile, laugh and probably cry in parts, and this will continue right to the very last page! ★ ★ ★ ★ ★ A lovely story with a wonderful twist that I wasn’t expecting. ★ ★ ★ ★ ★ Charming, enticing, compelling, joyous. ★ ★ ★ ★ ★ Absolutely loved this series... Perfect for taking on holiday.",
-    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B088HGYN8G.01._LZZZZZZZ_.jpg',
-    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B088HGYN8G.01._LZZZZZZZ_.jpg'],
+    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B088HGYN8G.01.LZZZZZZZ.jpg',
+    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B088HGYN8G.01.LZZZZZZZ.jpg'],
     purchaseLinks: {
       amazon: 'https://www.amazon.com/dp/B088HGYN8G'
     },
@@ -770,8 +770,8 @@ export const INITIAL_BOOKS: Book[] = [
     price: 12.99,
     originalPrice: 12.99,
     summary: "An angry biker at a crossroads. A woman in search of a fresh start. Lisa Wenhold’s business partner stole everything. Her dreams of opening her own business are ripped away when she learns the debt he owes to a local motorcycle club now falls to her. With her brother being a member of a rival club, going to him would start a war between the two MCs. She thinks she has a solution, until a sexy biker with a surly disposition saunters into her life… Rage has never met a woman as feisty, proud, and determined as Lisa. Nor has he ever fought this hard against such a fierce attraction. Even so, resistance is crucial considering she’s the sister to one of his biker brothers. He’s instructed to protect her, and he’ll honor his word. But things are getting harder by the day... Falling into bed together is unexpected, in the best way imaginable. Falling for one another absolutely cannot happen. That’s doable, right? Not a chance.",
-    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0B7CJTHX8.01._LZZZZZZZ_.jpg',
-    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0B7CJTHX8.01._LZZZZZZZ_.jpg'],
+    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0B7CJTHX8.01.LZZZZZZZ.jpg',
+    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0B7CJTHX8.01.LZZZZZZZ.jpg'],
     purchaseLinks: {
       amazon: 'https://www.amazon.com/dp/B0B7CJTHX8'
     },
@@ -803,8 +803,8 @@ export const INITIAL_BOOKS: Book[] = [
     price: 14.99,
     originalPrice: 14.99,
     summary: "After running away from her wedding and hiding for months, Violet Berkley is back home in the high country of Colorado. Her father’s gambling debt has caught up to him, and he wants Violet and her sister to help him pay it off by working as dancing girls in a saloon. Rather than face such degradation, Violet seeks out the one man she hopes might be willing to help her. Sterling Noble doesn’t want anything to do with Violet after being jilted at the altar by her. He doesn’t want to see her, be near her, or even speak to her. But when she shows up on his doorstep in desperate straits, he’s too kind—and maybe still too in love with her—to do anything but protect her. Violet knows she doesn’t deserve another chance with Sterling, but she wants to prove she’s a new woman. But has she really changed, or are the insecurities still there? Sterling tries hard to resist his old feelings for Violet because his broken heart can’t take another beating. But as the danger closes in, he’s afraid he’ll lose her all over again. Runaway bride Jilted groom Second chances Stuck together Pretend engagement Enemies to more Cowboy shoot-out The inspirational themes in this book are light, and the romance is the primary focus. While the romance is sizzling and the kisses swoony, both the language and physical attraction are clean and wholesome.",
-    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0F35D3V7T.01._LZZZZZZZ_.jpg',
-    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0F35D3V7T.01._LZZZZZZZ_.jpg'],
+    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0F35D3V7T.01.LZZZZZZZ.jpg',
+    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0F35D3V7T.01.LZZZZZZZ.jpg'],
     purchaseLinks: {
       amazon: 'https://www.amazon.com/dp/B0F35D3V7T'
     },
@@ -836,8 +836,8 @@ export const INITIAL_BOOKS: Book[] = [
     price: 15.99,
     originalPrice: 15.99,
     summary: "★★★★★ “Thrilling, dark, exciting” As a soul-reaper born of the Underworld, Dagan Krayl exists for one purpose: reap mortal souls, enforce the laws of the gods, and destroy anyone who threatens the balance between realms. Including Roxy Tam. Fierce, stubborn, and deadly with a blade, Roxy has dedicated her life to protecting humans from the monsters that prey upon them. Especially the beautiful, ruthless demigod responsible for harvesting mortal souls. But when Dagan’s brother is murdered and his body stolen, an ancient resurrection ritual threatens to unleash chaos between the mortal world and the Underworld itself. To stop it, Dagan and Roxy are forced into an uneasy alliance. Every clue draws them deeper into a world of forbidden magic, violent gods, and deadly betrayal. And every moment together drags Roxy closer to the one thing she swore to destroy. Because the closer she gets to Dagan, the more dangerous he becomes. Not just to her life. But to her heart. As the boundary between worlds begins to collapse, Dagan and Roxy must decide whether to destroy each other…or risk everything for a bond that could ruin them both. Perfect for readers who love enemies-to-lovers tension, dangerous gods, morally gray heroes, and dark mythic romance. _____________________________________________________ ★★★★★ “I loved every freaking minute of it” ★★★★★ “This book had me hooked!” ★★★★★ “I absolutely love this book!” ★★★★★ “Edgy, Shocking, Sex-beyond-awesome” ★★★★★ “Awesome love story with kick butt action and Egyptian Lore” ★★★★★ “I couldn't put it down!” ★★★★★ “This story kept me up way past my bedtime!” ★★★★★ “Sinfully delightful” ★★★★★ “…grabbed my heart and didn't let me go” ★★★★★ “Dark, intense, and addictive” ★★★★★ “…action-packed from the first page to the last” ★★★★★ “AMAZING!” ★★★★★ “Wow…just wow!” THE COMPLETE SINS SERIES READING ORDER Sin's Daughter (novella — can be read anytime) Sins of the Heart (Book 1) Sins of the Soul (Book 2) Sins of the Flesh (Book 3) Body of Sin (Book 4)",
-    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B06W2LK9P4.01._LZZZZZZZ_.jpg',
-    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B06W2LK9P4.01._LZZZZZZZ_.jpg'],
+    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B06W2LK9P4.01.LZZZZZZZ.jpg',
+    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B06W2LK9P4.01.LZZZZZZZ.jpg'],
     purchaseLinks: {
       amazon: 'https://www.amazon.com/dp/B06W2LK9P4'
     },
@@ -869,8 +869,8 @@ export const INITIAL_BOOKS: Book[] = [
     price: 11.99,
     originalPrice: 11.99,
     summary: "Zoey Yates doesn’t ask for help. She fixes things, handles things, and keeps a carefully maintained emotional perimeter around everything that matters. She has a plan, a parrot with a helpdesk vocabulary, and absolutely zero feelings about the wolf shifter she listed as her emergency contact after knowing him for approximately six hours. Zero feelings. Completely fine. The hospital called him anyway. He drove forty minutes in thirty-two. Now he’s in her apartment, cooking eggs she didn’t ask for, and her parrot—who has never liked anyone—has accepted a head scratch. Liam sits across the room, not beside her, because she hasn’t invited anything closer. He waits. He doesn’t push. Zoey has spent her whole life being the person who shows up. She doesn’t have a protocol for someone who shows up for her. She’s building one. Against her will. Slightly faster than planned. My Emergency Contact is a Wolf Shifter is a steamy standalone paranormal romance about a woman who guards everything and the wolf who waited at the door.",
-    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0H5LB253J.01._LZZZZZZZ_.jpg',
-    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0H5LB253J.01._LZZZZZZZ_.jpg'],
+    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0H5LB253J.01.LZZZZZZZ.jpg',
+    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0H5LB253J.01.LZZZZZZZ.jpg'],
     purchaseLinks: {
       amazon: 'https://www.amazon.com/dp/B0H5LB253J'
     },
@@ -902,8 +902,8 @@ export const INITIAL_BOOKS: Book[] = [
     price: 18.99,
     originalPrice: 18.99,
     summary: "The deluxe limited edition of Blood Bound features stenciled edges, a reversible hardcover jacket with foil effects, custom illustrated endpapers, and a foil-stamped case! This stunning, collectible hardcover edition is available only on the first printing and is a must-have for any reader while supplies last in the US and Canada. An instant New York Times bestseller! A debut high-stakes fantasy romance trilogy set against a once-in-a-generation duel to the death between rival witches and dragon riders as they battle to control the source of all magic in their kingdoms. Perfect for fans of Fourth Wing , the Throne of Glass series, and Red Queen . You duel or you die. Astrid has always known she is destined to die. She is the last Nachstern witch and heir to the Queendom of Arturea, cursed by a centuries-old covenant to duel the heir to the Kingdom of Vatra for the source of all magic: the Heart. And now Astrid’s time is up. She is heading into enemy territory to face Prince Zryan, the most powerful dragon rider in eons, with only her familiar, her potions, and her wits to aid her. She is going to die, and any chance her queendom has of curing the Blight that’s ravaging the lands and killing her people will die with her. Meanwhile, deep in dragon country, Skylar and her travelling troupe arrive in Vatra’s capital, ready to profit off the legions of spectators swarming to the city ahead of the duel. She despises the royals and all they stand for, especially as the King’s guard murdered her mother. But when her best friend disappears, suspected to have been taken in the conscription, her search takes her closer to the royals than she ever could have imagined. As the duel looms over the kingdom, Skylar and Astrid’s fates intertwine. They must battle a growing rebellion, their inner demons, and ultimately, those they love most, to determine if together they will save—or doom—their world.",
-    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/1668233134.01._LZZZZZZZ_.jpg',
-    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/1668233134.01._LZZZZZZZ_.jpg'],
+    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/1668233134.01.LZZZZZZZ.jpg',
+    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/1668233134.01.LZZZZZZZ.jpg'],
     purchaseLinks: {
       amazon: 'https://www.amazon.com/dp/1668233134'
     },
@@ -935,8 +935,8 @@ export const INITIAL_BOOKS: Book[] = [
     price: 15.99,
     originalPrice: 15.99,
     summary: "A Washington Post and Publishers Weekly Best SF/Fantasy/Horror Novel of 2025 Alien meets Midsommar in this chilling debut adult novel from award-winning author Andrew Joseph White about identity, survival, and transformation amidst an alien invasion in rural West Virginia. Festering masses of worms and flies have taken root in dark corners across Appalachia. In exchange for unwavering loyalty and fresh corpses, these hives offer a few struggling humans salvation. A fresh start. It’s an offer that none refuse. Crane is grateful. Among his hive’s followers, Crane has found a chance to transition, to never speak again, to live a life that won’t destroy him. He even met Levi: a handsome ex-Marine and brutal killer who treats him like a real man, mostly. But when Levi gets Crane pregnant—and the hive demands the child’s birth, no matter the cost—Crane’s desperation to make it stop will drive the community that saved him into a devastating spiral that can only end in blood. You Weren’t Meant to Be Human is a deeply personal horror; a visceral statement about the lives of marginalized people in a hostile world, echoing the works of Stephen Graham Jones and Eric LaRocca.",
-    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/1668038080.01._LZZZZZZZ_.jpg',
-    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/1668038080.01._LZZZZZZZ_.jpg'],
+    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/1668038080.01.LZZZZZZZ.jpg',
+    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/1668038080.01.LZZZZZZZ.jpg'],
     purchaseLinks: {
       amazon: 'https://www.amazon.com/dp/1668038080'
     },
@@ -968,8 +968,8 @@ export const INITIAL_BOOKS: Book[] = [
     price: 14.99,
     originalPrice: 14.99,
     summary: "Jessica Goodman meets Jesse Q. Sutanto in this twisty enemies-to-lovers thriller, full of secrets, privilege, and murder. Now in paperback! Eighteen-year-old Addie Blackwood regrets nothing more than one horrible, mistake-filled night last summer. Hours after she hurled the worst words she could think of at her sister, Fiona was found dead at the bottom of a ravine. The police ruled her death an accident, but Addie’s never bought it. Her ballet-prodigy sister didn’t slip and fall; she was pushed . But when Addie’s number one suspect is found dead in the same ravine a year later, she’s forced to admit she was wrong. And now her only ally (and alibi) in catching the real killer is none other than her childhood rival, Seth Montgomery—the boy she’s always loved to hate. But as Addie and Seth approach the explosive and murderous truth, their growing bond may not be enough to keep Addie safe—in fact, it may turn her into the next victim.",
-    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/0593620046.01._LZZZZZZZ_.jpg',
-    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/0593620046.01._LZZZZZZZ_.jpg'],
+    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/0593620046.01.LZZZZZZZ.jpg',
+    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/0593620046.01.LZZZZZZZ.jpg'],
     purchaseLinks: {
       amazon: 'https://www.amazon.com/dp/0593620046'
     },
@@ -1001,8 +1001,8 @@ export const INITIAL_BOOKS: Book[] = [
     price: 12.99,
     originalPrice: 12.99,
     summary: "Braxton and Devon witnessed the worst of humanity during their escape from the Las Vegas Strip. Reuniting mother and daughter fulfilled Braxton’s promise to Devon, but leaving them to survive on their own weighs heavily on his sense of duty. Now thrust into a leadership role within the apartment complex, Braxton must grapple with conflicting impulses—protect the people around him or focus on saving himself—as the struggle for survival intensifies in a powerless world where neighbor turns against neighbor, and the community faces off against the ruthless cult known as the Children of God. Protecting Devon and Lucy remains Braxton’s top priority. But what happens if he can’t save everyone? Will the community come together and find a way to survive as one—or will it become every man for himself?",
-    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0F29JP5LS.01._LZZZZZZZ_.jpg',
-    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0F29JP5LS.01._LZZZZZZZ_.jpg'],
+    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0F29JP5LS.01.LZZZZZZZ.jpg',
+    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0F29JP5LS.01.LZZZZZZZ.jpg'],
     purchaseLinks: {
       amazon: 'https://www.amazon.com/dp/B0F29JP5LS'
     },
@@ -1034,8 +1034,8 @@ export const INITIAL_BOOKS: Book[] = [
     price: 11.99,
     originalPrice: 11.99,
     summary: "Once, they were the galaxy’s most fearsome mercenaries… A lot has changed since then. Still, a friend is a friend. So, when one of their old crewmates dies under mysterious circumstances, the infamous Billy Firebrand calls the old crew back together for one last mission. With a busted ship, a lifetime’s worth of demons, and a galactic war on the line, they’ll face odds they probably couldn’t have beaten in their prime. These days… they don’t stand a chance. Ride with Billy, Shotgun, Stick, El, and Mouth as the galaxy’s worst mercenaries face impossible odds, hidden enemies, and… hybrid flying squirrel baboons? Fans of The Worst Ship in the Fleet and Rogue Agent will love this new series full of swashbuckling adventure, witty banter, and plenty of sci-fi fun. Tag along with this crew of has-beens as they redefine what it means to be heroes (and not always in a good way). Set in the fan-favorite universe of Dumb Luck and Dead Heroes , you don't need to have read that series to fully enjoy this action-packed full-length novel.",
-    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0DV3163G7.01._LZZZZZZZ_.jpg',
-    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0DV3163G7.01._LZZZZZZZ_.jpg'],
+    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0DV3163G7.01.LZZZZZZZ.jpg',
+    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0DV3163G7.01.LZZZZZZZ.jpg'],
     purchaseLinks: {
       amazon: 'https://www.amazon.com/dp/B0DV3163G7'
     },
@@ -1067,8 +1067,8 @@ export const INITIAL_BOOKS: Book[] = [
     price: 13.99,
     originalPrice: 13.99,
     summary: "*** THE SERIES IS NOW COMPLETE *** The goddess gifted me five soul-bonded mates and a snarky familiar. How lucky am I? It turns out–not so much. Betrayed by my storm mage and imprisoned by his psycho parents, my future looks bleak. The old me would have waited for a handsome rescuer to show up, but the new me is spoiling for a fight. Witch life is hard enough without having to deal with entitled red flag males in need of a serious attitude adjustment. It’s time I showed these idiots who’s in charge. Kenji, my kitsune familiar, says I’m too stupid to live, but I’ll prove him wrong. Yes, the realm is about to discover I’m a powerful hybrid witch with kick-ass magic that can melt ugly demons and nasty old crones. Tiberius Vane and his evil wife might think they have me under their thumb, but this witch isn’t going down without a fight. Because if I die, my mates might die too. And besides, I have a major bone to pick with the arrogant fae asshole who kidnapped my bestie. --- Shadows Unbound is the final book in the Starfall Academy series, a why choose paranormal academy adventure featuring a cast of chaotic magicals. HAE guaranteed!",
-    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0GHSM26YR.01._LZZZZZZZ_.jpg',
-    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0GHSM26YR.01._LZZZZZZZ_.jpg'],
+    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0GHSM26YR.01.LZZZZZZZ.jpg',
+    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0GHSM26YR.01.LZZZZZZZ.jpg'],
     purchaseLinks: {
       amazon: 'https://www.amazon.com/dp/B0GHSM26YR'
     },
@@ -1100,8 +1100,8 @@ export const INITIAL_BOOKS: Book[] = [
     price: 9.99,
     originalPrice: 9.99,
     summary: "Something’s changed… Something’s different… And Sergeant Jack Hammer will never be the same. Accidents happen. Space Marines know what they’re signing up for. Every mission is dangerous, but when a radiation surge wipes out Jack’s entire platoon, and he alone survives, there has to be a reason. Captain Kittle is old school, the kind of ship commander who isn’t interested in what anyone thinks of his decisions. But he insists they be carried out exactly as he wants or heads will roll. Dr. Cal Zeldin is a rare breed. There aren’t many human doctors left, and those who are usually spend their career doing medical research. When a lone Marine not only survives a deadly gamma surge but begins showing signs of physical regeneration, Cal knows he stumbled onto a major medical discovery, perhaps even the key to reverse aging and transforming the entire human race. Rogue is the first book in an exciting new series that meshes military sci-fi with superhero adventure. Join Jack as he discovers new physical abilities he never dreamed of before, and has to put to use to escape the people who want to find the secret to his powers and rip it out of him, no matter the cost. It’s an engaging, character-driven story in the vein of Marvel’s Wolverine . If you liked ’80’s action flicks like Raw Deal , First Blood , and Heartbreak Ridge , you'll love Rogue .",
-    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0GX7V61YX.01._LZZZZZZZ_.jpg',
-    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0GX7V61YX.01._LZZZZZZZ_.jpg'],
+    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0GX7V61YX.01.LZZZZZZZ.jpg',
+    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0GX7V61YX.01.LZZZZZZZ.jpg'],
     purchaseLinks: {
       amazon: 'https://www.amazon.com/dp/B0GX7V61YX'
     },
@@ -1133,8 +1133,8 @@ export const INITIAL_BOOKS: Book[] = [
     price: 15.99,
     originalPrice: 15.99,
     summary: "Sometimes, dying on the job is just the beginning of a new shift. My name is Alexey Mechnikov. I’m not a special forces soldier, an assassin, or a mage — and I’m certainly not a god! I’m an ordinary doctor. And I died on the job. Instead of a permanent death, however, I found myself reborn into a new world — in the body of a young, half-educated healer. It is the nineteenth century, and my new world is ruled by magic. My father is exiling me from the family for the misdeeds of my predecessor. But that’s actually for the best, because now I can master the healing arts of this world - and even advance them, using my skills from my past life! First, though, I need to awaken my magical gift and save my first patient! ‘ The Exiled Healer ’ is Book 1 of a portal fantasy series. Mage clans, noble intrigue, and a doctor whose modern knowledge makes him unlike anyone this world has ever seen. Join Alexey as his new life begins.",
-    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0GXL271R4.01._LZZZZZZZ_.jpg',
-    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0GXL271R4.01._LZZZZZZZ_.jpg'],
+    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0GXL271R4.01.LZZZZZZZ.jpg',
+    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0GXL271R4.01.LZZZZZZZ.jpg'],
     purchaseLinks: {
       amazon: 'https://www.amazon.com/dp/B0GXL271R4'
     },
@@ -1166,8 +1166,8 @@ export const INITIAL_BOOKS: Book[] = [
     price: 11.99,
     originalPrice: 11.99,
     summary: "A werewolf showed up to investigate a murder in my office building—then bit me, and accused me of being the killer. When I'm proven innocent, he admits the truth: We’re soulmates. Unfortunately for both of us, I’m a vampire. Our people are mortal enemies, so we have no choice but to ignore the connection we share until it eventually fades. The only problem? His instincts won’t let him walk away, and he isn't trying to fight them. When I’m nearly offed by the murderer myself, all bets are off. My werewolf will take out the killer and make me his… or we’ll both die trying. *This is a spicy enemies to lovers romance with a happily ever after",
-    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0H4SH5R4J.01._LZZZZZZZ_.jpg',
-    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0H4SH5R4J.01._LZZZZZZZ_.jpg'],
+    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0H4SH5R4J.01.LZZZZZZZ.jpg',
+    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0H4SH5R4J.01.LZZZZZZZ.jpg'],
     purchaseLinks: {
       amazon: 'https://www.amazon.com/dp/B0H4SH5R4J'
     },
@@ -1199,8 +1199,8 @@ export const INITIAL_BOOKS: Book[] = [
     price: 10.99,
     originalPrice: 10.99,
     summary: "Urgently needed, a gunslinger to protect a woman, her daughter, and her unborn babe. Newly widowed and with a baby on the way, Hannah Carson faces a chilling ultimatum—marry her evil brother-in-law or be forced off her land. As the town of Red Ridge is swayed against her, loyal but aging ranch hand, Gus, sends away for a gunslinger—the only man who might be able to protect them. Eli Jones takes the job, expecting a simple payday. But the situation is more complicated than he expected, and his presence brings additional risks to Hannah and to himself. In his line of work, falling for a woman is dangerous—and right now, he’s head over heels. It’s not a spot he expected or wanted to be in. As danger and desire surround them, can Eli keep his mind focused on the task at hand? Or will their attraction end in tragedy? These kisses only books can be enjoyed in any order, but are best read starting with book one.",
-    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0DQ71J5BS.01._LZZZZZZZ_.jpg',
-    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0DQ71J5BS.01._LZZZZZZZ_.jpg'],
+    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0DQ71J5BS.01.LZZZZZZZ.jpg',
+    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0DQ71J5BS.01.LZZZZZZZ.jpg'],
     purchaseLinks: {
       amazon: 'https://www.amazon.com/dp/B0DQ71J5BS'
     },
@@ -1232,8 +1232,8 @@ export const INITIAL_BOOKS: Book[] = [
     price: 14.99,
     originalPrice: 14.99,
     summary: "A small-town PI is drawn into a killer conspiracy in a breathtaking novel of suspense by the New York Times bestselling author of the Anthony Award–nominated These Toxic Things . Private investigator Sonny Rush, the newest resident of Haven, California, knows that this fogbound coastal hamlet is every bit as dangerous as her hometown of Los Angeles. And when teenager and repeat runaway Honor Butler shows up at Sonny’s door with terror in her eyes, Sonny is immediately pulled into a new case that lands close to home. Desperate, hungry, and in need of someone she can trust, Honor tells Sonny a horrifying story about where she’s been—and what she’s been forced to do. Then, hours later, the forest near Sonny’s cottage yields the remains of a missing day laborer, a man whose wife has been searching for answers for months. Soon, coincidence sharpens into conspiracy. As Sonny digs deeper, the threads of these cases twist together into something horrifying: a ruthless network preying on the vulnerable, protected by the very people meant to uphold the law. With every step closer to revealing Haven’s corruption, Sonny risks pulling the lives of her loved ones into the cross fire—and exposing the shadows of her own past. Because in this town, loyalty can be fatal, and survival means deciding who you’re willing to betray.",
-    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0DNXVPTNX.01._LZZZZZZZ_.jpg',
-    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0DNXVPTNX.01._LZZZZZZZ_.jpg'],
+    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0DNXVPTNX.01.LZZZZZZZ.jpg',
+    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0DNXVPTNX.01.LZZZZZZZ.jpg'],
     purchaseLinks: {
       amazon: 'https://www.amazon.com/dp/B0DNXVPTNX'
     },
@@ -1265,8 +1265,8 @@ export const INITIAL_BOOKS: Book[] = [
     price: 18.99,
     originalPrice: 18.99,
     summary: "The deluxe limited edition of Blood Bound features stenciled edges, a reversible hardcover jacket with foil effects, custom illustrated endpapers, and a foil-stamped case! This stunning, collectible hardcover edition is available only on the first printing and is a must-have for any reader while supplies last in the US and Canada. An instant New York Times bestseller! A debut high-stakes fantasy romance trilogy set against a once-in-a-generation duel to the death between rival witches and dragon riders as they battle to control the source of all magic in their kingdoms. Perfect for fans of Fourth Wing , the Throne of Glass series, and Red Queen . You duel or you die. Astrid has always known she is destined to die. She is the last Nachstern witch and heir to the Queendom of Arturea, cursed by a centuries-old covenant to duel the heir to the Kingdom of Vatra for the source of all magic: the Heart. And now Astrid’s time is up. She is heading into enemy territory to face Prince Zryan, the most powerful dragon rider in eons, with only her familiar, her potions, and her wits to aid her. She is going to die, and any chance her queendom has of curing the Blight that’s ravaging the lands and killing her people will die with her. Meanwhile, deep in dragon country, Skylar and her travelling troupe arrive in Vatra’s capital, ready to profit off the legions of spectators swarming to the city ahead of the duel. She despises the royals and all they stand for, especially as the King’s guard murdered her mother. But when her best friend disappears, suspected to have been taken in the conscription, her search takes her closer to the royals than she ever could have imagined. As the duel looms over the kingdom, Skylar and Astrid’s fates intertwine. They must battle a growing rebellion, their inner demons, and ultimately, those they love most, to determine if together they will save—or doom—their world.",
-    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/1668233134.01._LZZZZZZZ_.jpg',
-    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/1668233134.01._LZZZZZZZ_.jpg'],
+    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/1668233134.01.LZZZZZZZ.jpg',
+    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/1668233134.01.LZZZZZZZ.jpg'],
     purchaseLinks: {
       amazon: 'https://www.amazon.com/dp/1668233134'
     },
@@ -1298,8 +1298,8 @@ export const INITIAL_BOOKS: Book[] = [
     price: 11.99,
     originalPrice: 11.99,
     summary: "In a city steeped in history, the truth is buried deep. Are some secrets really worth killing for? Discover a gripping Scottish Murder Mystery set in the shadow of the Wallace Monument. The murder of a local software executive brings the mind of an old-school Scottish detective into a world he barely understands. DCI Ben Fitzpatrick has spent his career solving crimes the old way – instinct, experience and relentless determination. But this case is different. As Ben and his protégé DS Julie Taylor follow the elusive trail of the killer, they are led into the underbelly of the technology world – a place where Ben’s old-school detective skills leave him feeling remarkably out of his depth. And with the shadow of a former case and serious concerns about his health hanging over him, Ben fears this might be one case he just can’t crack, and maybe his last . . . Will they find the answers they’re looking for before it’s too late? Start reading now to find out. Perfect for fans of Alex Gray, Stuart MacBride, Ian Rankin, Ann Cleeves and Peter May. If you love devouring murder mysteries that keep you guessing until the end, this is a book for you . . . PRAISE FOR CODE TO MURDER Packed with twists, suspense, and authentic emotional stakes, this is a polished and highly satisfying thriller that crime fiction fans will thoroughly enjoy. Highly recommended ,\" The International Review of Books. ⭐⭐⭐⭐⭐ ‘ Compelling, fast paced, page turning crime mystery. The characters were exceptionally well developed — they felt real, layered, and believable. Ben was refreshingly human as a detective, and Julie was the perfect counterbalance to him.’ Inger J ⭐⭐⭐⭐⭐ ‘ Exciting and Suspenseful. One of the strongest parts of the book is its atmosphere. The author does a great job of building suspense through unexpected twists and high-stakes situations.’ Cierra ⭐⭐⭐⭐⭐ ‘ Excellent Series Debut. If you’re looking for a police procedural that hits like a jolt of caffeine, Code to Murder is your next obsession.’ Diane T ⭐⭐⭐⭐⭐ ‘ Terrific addition to the Tartan Noir . Definitely brought something new to the Tartan Noir genre . . . Rest assured I will be coming back for more.’ Jo ⭐⭐⭐⭐⭐ ‘ Will have wide appeal. This new author has written a first book that will have appeal to fans of the various subgenres of crime fiction. Definitely worth a read by any fan of crime fiction.’ Kindle reader. ⭐⭐⭐⭐⭐ ‘ Great book. Set against the atmospheric backdrop of Stirling and the looming Wallace Monument it balances classic murder mystery elements with a more contemporary twist.’",
-    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0H1SYYJ36.01._LZZZZZZZ_.jpg',
-    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0H1SYYJ36.01._LZZZZZZZ_.jpg'],
+    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0H1SYYJ36.01.LZZZZZZZ.jpg',
+    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0H1SYYJ36.01.LZZZZZZZ.jpg'],
     purchaseLinks: {
       amazon: 'https://www.amazon.com/dp/B0H1SYYJ36'
     },
@@ -1331,8 +1331,8 @@ export const INITIAL_BOOKS: Book[] = [
     price: 9.99,
     originalPrice: 9.99,
     summary: "'Packed with atmosphere, heart and a rising sense of menace.'—Gilly Macmillan 'My favourite cosy crime writer.'—Lucy Clarke A wealthy family. An isolated island. A dead body. Is it a tragic accident or foul play? The Shell House Detectives are investigating again… Lone Island is a remote and windswept spot, but for nature reserve warden Pippa Grant it’s always been a haven. Until a body washes ashore—and she’s the one to find it. The police believe the deceased, Axel Marks, accidentally fell from the cliffs near Porthmerrin House, the grand estate on the mainland where Axel’s mother once served as housekeeper to the Grey family. But Pippa is adamant that there’s more to Axel’s death, and begs Ally and Jayden, the Shell House Detectives, to take the case. Soon it emerges that Axel had a troubled past, and a complicated history with both Edward Grey and his son, Lucas. As the reasons behind Axel’s visit to Porthmerrin become clear, Ally and Jayden feel sure that the house holds the key, and both owners and staff come under scrutiny. But when the police switch their focus back to Lone Island, Ally and Jayden are forced to question whether it’s their client who has something to hide. Was Axel murdered out of jealousy and greed, or because of an ancient betrayal? And how far will the killer go to achieve their ultimate goal? As Ally and Jayden finally bring the devastating truth to light, it’s clear that Axel’s death was just the beginning of the story…",
-    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0FTZVVPJG.01._LZZZZZZZ_.jpg',
-    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0FTZVVPJG.01._LZZZZZZZ_.jpg'],
+    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0FTZVVPJG.01.LZZZZZZZ.jpg',
+    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0FTZVVPJG.01.LZZZZZZZ.jpg'],
     purchaseLinks: {
       amazon: 'https://www.amazon.com/dp/B0FTZVVPJG'
     },
@@ -1364,8 +1364,8 @@ export const INITIAL_BOOKS: Book[] = [
     price: 10.99,
     originalPrice: 10.99,
     summary: "The world can be a cruel place. Zoe Fontaine has had to battle many enemies in the shadows. When her sister becomes the target of someone’s twisted games. It’s up to Zoe to find the truth. While caring for her sister, who lies in a comatose state. A mysterious fire tears through the community center in town. Hoping to get Zoe away from her obsession with her sister’s case. Leo urges Zoe to investigate the town’s fire. Soon, cryptic messages begin to lead Zoe down a life-threatening path. It seems someone is watching her every move. When multiple fires erupt, lighting Sapphire Valley ablaze. And one of Zoe’s sources ends up dead. Zoe grows desperate to solve the case, going undercover to expose the culprit. While the arsonist wreaks havoc in the small town, Zoe finds comfort in Leo. But when Leo receives life-changing news. Zoe and Leo face the biggest hurdle in their relationship. Infernos, pharmaceutical coverups, and many casualties. It will take an arsenal of investigative prowess to get to the bottom of it all. Many lives are on the line, and one man's obsession will change everything.",
-    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0GGTD8YN4.01._LZZZZZZZ_.jpg',
-    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0GGTD8YN4.01._LZZZZZZZ_.jpg'],
+    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0GGTD8YN4.01.LZZZZZZZ.jpg',
+    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0GGTD8YN4.01.LZZZZZZZ.jpg'],
     purchaseLinks: {
       amazon: 'https://www.amazon.com/dp/B0GGTD8YN4'
     },
@@ -1397,8 +1397,8 @@ export const INITIAL_BOOKS: Book[] = [
     price: 14.99,
     originalPrice: 14.99,
     summary: "From the Wall Street Journal bestselling author of Rich Justice and The Boomerang comes a gripping thriller about a disgraced lawyer facing the legal battle of her life as she tries to redeem herself—and save her son. Max Ringo was once a courtroom star at an elite law firm. Then a car accident left her addicted to painkillers, and her life dissolved into shambles. Now fresh out of rehab and making a comeback as a mediator, she gets her shot at redemption when she is appointed to handle a high-stakes divorce. But as Max begins negotiations between the two notorious power players, the trap is already sprung. The husband kidnaps her teenage son, Nathan, and gives her a chilling ultimatum: settle the case on his terms…or the boy dies. Over three relentless days, Max must resolve a cutthroat legal battle while pursuing a covert mission to rescue Nathan. She’ll risk everything—her career, her freedom, her life—to beat a ruthless adversary at his own game. Even when a shadowy syndicate enters the fray and bodies start to drop, only one thing matters. She must bring her son home, whatever the cost.",
-    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0DZDCY7KQ.01._LZZZZZZZ_.jpg',
-    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0DZDCY7KQ.01._LZZZZZZZ_.jpg'],
+    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0DZDCY7KQ.01.LZZZZZZZ.jpg',
+    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0DZDCY7KQ.01.LZZZZZZZ.jpg'],
     purchaseLinks: {
       amazon: 'https://www.amazon.com/dp/B0DZDCY7KQ'
     },
@@ -1430,8 +1430,8 @@ export const INITIAL_BOOKS: Book[] = [
     price: 12.99,
     originalPrice: 12.99,
     summary: "To find two missing women, a detective must dive into the secrets of her past in a blood-freezing novel of suspense by USA Today bestselling author Debra Webb. Detective Adeline Cooper swore she’d never return to Mississippi, where her corrupt family rules through fear and her career was upended by betrayal. But then she receives a photograph of a local woman who has gone missing, along with a cryptic, chilling message: Pretty, pretty princess. See her smile…see her die. Soon after Adeline arrives in her hometown, a second woman is kidnapped, and there are disturbing connections between the two victims and the detective. Both women bear an eerie resemblance to Adeline and share her fear of water. A new message makes the kidnapper’s game terrifyingly clear: You’re next. When past and present collide at the river’s edge, Adeline will finally understand why she’s been dreaming of drowning her whole life. Revised edition: Previously published as Anywhere She Runs , this edition of The Drowning Season includes editorial revisions.",
-    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0G2YGJJ7N.01._LZZZZZZZ_.jpg',
-    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0G2YGJJ7N.01._LZZZZZZZ_.jpg'],
+    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0G2YGJJ7N.01.LZZZZZZZ.jpg',
+    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0G2YGJJ7N.01.LZZZZZZZ.jpg'],
     purchaseLinks: {
       amazon: 'https://www.amazon.com/dp/B0G2YGJJ7N'
     },
@@ -1463,8 +1463,8 @@ export const INITIAL_BOOKS: Book[] = [
     price: 13.99,
     originalPrice: 13.99,
     summary: "My husband Henry is missing — and there’s a dead body in my bed. Six weeks ago, Henry wrapped his truck around a telephone pole. Now he’s laid up at home with a shattered leg. We’re drowning in debt. We might lose our home. Then our new neighbors move in. They’re charming and wealthy. They offer us small jobs around their house. Easy work. And the pay is unbelievable. Nothing comes for free though. And then I come home to find a body in my bed — and it’s not even my husband. You always have to pay your debts . . . AN EXHILARATING BLEND OF BREATHTAKING SUSPENSE AND NAIL-BITING TENSION WITH A SHOCKING FINAL TWIST. Perfect for fans of Freida McFadden, Daniel Hurst, T.M. Logan, and Shalini Boland. Please note this is a completely revised edition of the book previously published as The Neighbors. READERS LOVE YOU’LL PAY : ⭐⭐⭐⭐⭐ ‘Well, this was a wild ride! Pulled me in from the first page and dragged me along at speed! I loved the twists and turns.’ Kathryn D. ⭐⭐⭐⭐⭐ ‘Oh my gosh! This one had me on the edge of my seat from start to finish .’ NetGalley Reviewer ⭐⭐⭐⭐⭐ ‘The storyline was gripping and the twists were amazing. I couldn’t put it down .’ Jess H. ⭐⭐⭐⭐⭐ ‘This is one brilliant thriller.’ NetGalley Reviewer ⭐⭐⭐⭐⭐ ‘A fast, gripping thriller that hooks you right away . . . It’s not just suspenseful, it actually hits.’ Ashley S. ⭐⭐⭐⭐⭐ ‘Wow, I absolutely loved this book ! I was hooked from the start.’ Michelle M. ⭐⭐⭐⭐⭐ ‘This book was great. I highly recommend this for Frieda McFadden fans .’ NetGalley Reviewer ⭐⭐⭐⭐⭐ ‘A fast-paced psychological drama with a totally surprising ending that you will not see coming.’ Kathleen H.",
-    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0GXGLCKJT.01._LZZZZZZZ_.jpg',
-    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0GXGLCKJT.01._LZZZZZZZ_.jpg'],
+    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0GXGLCKJT.01.LZZZZZZZ.jpg',
+    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0GXGLCKJT.01.LZZZZZZZ.jpg'],
     purchaseLinks: {
       amazon: 'https://www.amazon.com/dp/B0GXGLCKJT'
     },
@@ -1496,8 +1496,8 @@ export const INITIAL_BOOKS: Book[] = [
     price: 14.99,
     originalPrice: 14.99,
     summary: "Some promises are meant to be broken. When Josie’s sister Megan spirals into addiction, she makes a sacred vow: if anything happens to Megan, Josie will take care of her young son, Sunny. Three days later, Megan is dead—and Josie’s promise becomes a life sentence. Haunted by guilt over failing to save her sister, Josie welcomes her troubled nephew into her home. But as the initial shock of grief fades, unsettling questions surface. Megan wasn’t alone on the night she died. Was it really her addiction that killed her, or something more sinister? As her family begins to fracture, Josie feels her grip on reality slipping. Strange incidents multiply. Items disappear. Whispered conversations stop when she enters rooms. Is Sunny’s presence causing these disturbances, or is Josie’s guilt-ridden grief making her paranoid? When the people she trusted most begin to doubt her stability, she’s forced to question everything she thought she knew. Because some promises don’t just bind us—they blind us to the truth. A claustrophobic psychological thriller about family loyalty, deadly secrets and the price of keeping your word, perfect for fans of Lisa Jewell and Shari Lapena.",
-    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0FTZXR3VF.01._LZZZZZZZ_.jpg',
-    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0FTZXR3VF.01._LZZZZZZZ_.jpg'],
+    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0FTZXR3VF.01.LZZZZZZZ.jpg',
+    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0FTZXR3VF.01.LZZZZZZZ.jpg'],
     purchaseLinks: {
       amazon: 'https://www.amazon.com/dp/B0FTZXR3VF'
     },
@@ -1529,8 +1529,8 @@ export const INITIAL_BOOKS: Book[] = [
     price: 11.99,
     originalPrice: 11.99,
     summary: "Everyone has secrets. Some live across the street Sidney thought the move would be a fresh start. A safe town to raise her young son, Ollie. She thought her past was behind her, until the truth threatens to come out. Across the street is the kind of family everyone envies. A charming husband. A beautiful home. A perfect little boy who quickly becomes Ollie’s best friend. They look like everything Sidney isn’t. The boy’s mother barely speaks to her. Her smiles are cold. Her eyes wary. As if Sidney is a threat. One day, Ollie comes home shaken. He says his new friend across the street told him that his mother has a dark secret. “It's okay Mommy,” Ollie tells her. “I told him you have a secret too.”",
-    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0GWW93YTZ.01._LZZZZZZZ_.jpg',
-    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0GWW93YTZ.01._LZZZZZZZ_.jpg'],
+    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0GWW93YTZ.01.LZZZZZZZ.jpg',
+    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0GWW93YTZ.01.LZZZZZZZ.jpg'],
     purchaseLinks: {
       amazon: 'https://www.amazon.com/dp/B0GWW93YTZ'
     },
@@ -1562,8 +1562,8 @@ export const INITIAL_BOOKS: Book[] = [
     price: 16.99,
     originalPrice: 16.99,
     summary: "A New York Times bestseller from the world's #1 bestselling author: They’re ex-Special Forces. They’re on American soil. Their code name is “Rocket's Red Glare.” \"Rocket's Red Glare moves fast and hits hard. Nat Phillips is an old-school leader in a world that's forgotten what that looks like—loyal, relentless, the kind of man his team would follow into hell. Eversmann's years in the Rangers and Patterson's instinct for pace make every page feel lived-in and real. They know exactly how soldiers talk, move, and fight, and it shows on every page. A sure-fire winner that’ll keep you up long past your bedtime.” —Lieutenant Colonel, USA, (Ret.) Brad Taylor, author of the New York Times bestselling Pike Logan series “A military thriller that captures the best of American heroism. There’s courage and nonstop action on every page. Nat Phillips is the hero we need.”—Bret Baier \"Rocket’s Red Glare brings the heat! In a summer read you will not soon forget, James Patterson and Matt Eversmann combine forces to create unforgettable characters and plot, with breakneck pacing that will keep you riveted through the night! This one is a banger!\" —Jack Carr, #1 New York Times bestselling author of The Fourth Option Nat Phillips leads an elite roster of special operators. They are ex-Special Forces, communications specialists, and intelligence officers. Phillips is a brilliant strategist and battle-tested leader who inspires total loyalty in his team. Now these decorated veterans of international warfare are at home and on stand-by—until a presidential campaign is interrupted by murder. Suddenly, the plan is no longer the stuff of Mission: Impossible . Emergency operations happening not overseas but in the centers of American power, from Nantucket to Washington, DC. This national crisis is real.",
-    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0FX257BH8.01._LZZZZZZZ_.jpg',
-    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0FX257BH8.01._LZZZZZZZ_.jpg'],
+    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0FX257BH8.01.LZZZZZZZ.jpg',
+    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0FX257BH8.01.LZZZZZZZ.jpg'],
     purchaseLinks: {
       amazon: 'https://www.amazon.com/dp/B0FX257BH8'
     },
@@ -1595,8 +1595,8 @@ export const INITIAL_BOOKS: Book[] = [
     price: 19.99,
     originalPrice: 19.99,
     summary: "Instant New York Times Bestseller \" Incorruptible by Eric Ries is the best and most important business book of the year.\" —Dan Heath, NYT Bestselling Author & Podcast Host of \"What It's Like To Be...\" A Thinkers50 Best New Management Book | A Next Big Idea Club Must-Read From Eric Ries, creator of The Lean Startup , comes a bold and urgently needed rethink of how organizations are built—and why success itself so often turns companies against the people and principles that made them worth building in the first place. For decades, we've explained corporate corruption as a problem of bad actors, moral weakness, or isolated scandals. But that story doesn't match reality. Again and again, companies founded with strong ideals drift toward short-term thinking, extractive behavior, and mission abandonment—often despite the best intentions of the people inside them. Incorruptible argues that this failure is not primarily ethical. It is structural. As organizations grow, the systems that govern them—ownership, incentives, charters, accountability, and decision-making—quietly reshape behavior. When those systems are poorly designed, even principled leaders are pushed toward outcomes they never wanted. Success itself becomes a form of financial gravity, bending companies away from their original purpose. Drawing on two decades of work with founders, CEOs, investors, and institution builders, Ries shows how these failures arise predictably—and how they can be prevented. He reframes corporate governance not as bureaucracy or compliance, but as a creative and strategic act at the heart of building enduring, mission-controlled companies. At a moment when trust in business is eroding, Incorruptible offers a clear-eyed diagnosis and a practical blueprint for change. Success alone will not protect what matters most. Only incorruptible design can. Get more information and bonus materials at incorruptible.co.",
-    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0FXBKY9Q3.01._LZZZZZZZ_.jpg',
-    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0FXBKY9Q3.01._LZZZZZZZ_.jpg'],
+    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0FXBKY9Q3.01.LZZZZZZZ.jpg',
+    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0FXBKY9Q3.01.LZZZZZZZ.jpg'],
     purchaseLinks: {
       amazon: 'https://www.amazon.com/dp/B0FXBKY9Q3'
     },
@@ -1628,8 +1628,8 @@ export const INITIAL_BOOKS: Book[] = [
     price: 17.99,
     originalPrice: 17.99,
     summary: "NEW YORK TIMES BESTSELLER \"Fascinating stories. . . . Boxing ourselves in may be the ultimate way to think outside the box.\" — Wall Street Journal “I thought David Epstein’s first two books were brilliant, but Inside the Box is his best. I’ll never think about my own work the same way again.” —Malcolm Gladwell It's never been easier to do too much. From the #1 New York Times bestselling author of Range, why limits are the key to stimulating creativity, innovation, collaboration, and personal contentment. We live in a world that gives us seemingly infinite choices and prizes freedom above all else. We have an unprecedented number of options regarding what to do, who to be, and how to spend our time. All that choice is wonderful; it is also overwhelming. The irony is that total freedom can be paralyzing, and unlimited resources don’t necessarily lead to the biggest breakthroughs. In fact, overvaluing complete freedom can be disastrous for everything from starting a company to harnessing creativity to finding personal satisfaction. David Epstein argues that all of us—individuals, businesses, institutions, even societies—can benefit from narrowing our options. He dives into the science and practice of constraints, exploring exactly when and how guardrails can be beneficial, whether we’re working with limited resources or using self-imposed boundaries to tap unexpected wells of focus and innovation. Original, galvanizing, and deeply researched, Inside the Box tells absorbing stories of people and organizations that embraced constraints to transform themselves, and the world—as well as a few that struggled from a lack of limits. Epstein reveals how boundaries create breakthroughs, and how setting the right constraints can help you become the most creative, productive, and satisfied version of yourself.",
-    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0FMXMFHKH.01._LZZZZZZZ_.jpg',
-    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0FMXMFHKH.01._LZZZZZZZ_.jpg'],
+    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0FMXMFHKH.01.LZZZZZZZ.jpg',
+    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0FMXMFHKH.01.LZZZZZZZ.jpg'],
     purchaseLinks: {
       amazon: 'https://www.amazon.com/dp/B0FMXMFHKH'
     },
@@ -1661,8 +1661,8 @@ export const INITIAL_BOOKS: Book[] = [
     price: 21.99,
     originalPrice: 21.99,
     summary: "The New York Times Bestseller • A Financial Times Best Book of the Year So Far From the long-tenured head of Goldman Sachs, an institution legendary for its culture of success, comes a candid memoir of global leadership in an age of extreme turbulence. \"Funny, mainly blunt, unexpectedly vulnerable and rarely apologetic.” — Bloomberg “No one has gotten inside the secret walls of Goldman Sachs and told the story of everything about it, warts and all. Now the man who ran it tells all—and it’s incredible.” —Jim Cramer \"Lively and insightful.\" — The Wall Street Journal When Lloyd Blankfein was attacked as a Wall Street fat cat, he had to smile, thinking of his precarious childhood in the notorious public housing projects of East New York, Brooklyn, and attending a high school so chaotic he didn’t feel safe leaving class to go to the bathroom in his time there. Harvard University was a total moonshot, and his outsider status never wore off, there or at Harvard Law. When he struck people as street-y, it wasn’t Wall Street they were thinking of. But if the chip never quite left Blankfein's shoulder, neither did a wry, resilient spirit and a lucid, democratic intelligence that saw through airs and found talent and ideas in unlikely places. Streetwise is a delightfully honest, sharp and often very funny reckoning with the author’s education—in finance, human nature, and the workings of the world. It abounds with lessons about leading teams of brilliant, aggressive, competitive people and harmonizing them around shared goals; changing when times are hard and when they’re good; managing risk; and knowing a crisis is at hand before it swamps you so you can guide your team to the further shore. Blankfein is famed for his calm hand on Goldman Sachs’s tiller during the global financial crisis, and that story is told in full here, among many other decisive episodes. Suffusing Streetwise is the author’s deep and abiding respect for the partnership culture of Goldman Sachs. We follow the never-ending work to protect and preserve that culture through all sorts of tumult—the challenge behind every other challenge. He is open about when he and the firm got it wrong, which was often enough, but the creative, risk-taking spirit was never snuffed—even as the fail-safes put in place to protect the firm and its clients held when they were needed the most. A powerful blueprint for the wise stewardship of a cause that is larger than yourself, Streetwise will inspire and inform readers throughout the global business community and beyond.",
-    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0FBWDZXRY.01._LZZZZZZZ_.jpg',
-    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0FBWDZXRY.01._LZZZZZZZ_.jpg'],
+    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0FBWDZXRY.01.LZZZZZZZ.jpg',
+    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0FBWDZXRY.01.LZZZZZZZ.jpg'],
     purchaseLinks: {
       amazon: 'https://www.amazon.com/dp/B0FBWDZXRY'
     },
@@ -1694,8 +1694,8 @@ export const INITIAL_BOOKS: Book[] = [
     price: 16.99,
     originalPrice: 16.99,
     summary: "Visibility. Credibility. Power. Status. Respect. WARNING: This book is not for everyone. This is an aggressive book. You probably won’t like it. It’s quite doubtful you have the courage, conviction, or clarity to appreciate a manifesto this unapologetic. We’d suggest you stick to safer, fluffier business books. BUT... if you want to know what separates the obscure from the outstanding , the replaceable from the irreplaceable , and the overlooked from the overbooked ? Then dive into these pages so you can: - Attract top-tier clients, partners, and investors without chasing. - Own your niche and become the definitive voice in your industry. - Win attention from media, prospects, and competitors alike. - Scale your influence far beyond word of mouth or referrals. - Turn your reputation into a magnet for high-value opportunities. - Shrink sales cycles because prospects show up pre-sold on you. - Get invited to the right rooms, stages, and deals. - Lead a movement and amplify your long-term impact.",
-    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0G15LPPP8.01._LZZZZZZZ_.jpg',
-    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0G15LPPP8.01._LZZZZZZZ_.jpg'],
+    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0G15LPPP8.01.LZZZZZZZ.jpg',
+    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0G15LPPP8.01.LZZZZZZZ.jpg'],
     purchaseLinks: {
       amazon: 'https://www.amazon.com/dp/B0G15LPPP8'
     },
@@ -1727,8 +1727,8 @@ export const INITIAL_BOOKS: Book[] = [
     price: 18.99,
     originalPrice: 18.99,
     summary: "The first in-depth exploration of maintenance—and a powerful argument for its civilizational importance—from the author of How Buildings Learn and creator of the Whole Earth Catalog . Maintenance is what keeps everything going. It’s what keeps life going. Yet it’s also easy to shirk or defer—until the thing breaks, the system falters, and everything stops. The apparent paradox is profound: Maintenance is absolutely necessary and maintenance is optional. The first in a multi-volume work, Maintenance: Of Everything, Part One offers a comprehensive overview of the civilizational importance of maintenance. The book begins with a dramatic contest of maintenance styles under life-critical conditions: the Golden Globe around-the-world solo sailboat race of 1968. It goes on to explore the insights that can be gleaned from vehicle maintenance, from the zeal of motorcycle maintainers to the maintenance philosophies that fought for dominance of the auto industry to the state of electric vehicle manufacturing today, with absorbing detours into the evolution of precision in manufacturing, the enduring importance of manuals, sustainment in the military, and the never-ending battle against corrosion. Maintenance: Of Everything is a wide-ranging and provocative call to expand what we mean by “maintenance”—not just the tiresome preventative tasks but the whole grand process of keeping a thing going. It invites us to understand not only the profound impact maintenance has on our daily lives but also why taking responsibility for maintaining something—whether a motorcycle, a monument, or our very planet—can be a radical act. “No one else but Stewart Brand is talking about the art and science of maintenance and how to do it well. This will be an instant classic.” —Kevin Kelly, founding executive editor of Wired “A deliciously good book.” —Matt Ridley, author of The Rational Optimist",
-    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0FSH2VWHN.01._LZZZZZZZ_.jpg',
-    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0FSH2VWHN.01._LZZZZZZZ_.jpg'],
+    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0FSH2VWHN.01.LZZZZZZZ.jpg',
+    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0FSH2VWHN.01.LZZZZZZZ.jpg'],
     purchaseLinks: {
       amazon: 'https://www.amazon.com/dp/B0FSH2VWHN'
     },
@@ -1760,8 +1760,8 @@ export const INITIAL_BOOKS: Book[] = [
     price: 20.99,
     originalPrice: 20.99,
     summary: "How the world broke—and how we can still save it The liberal world order that emerged after World War II—and expanded triumphantly following the Cold War—is unraveling. Multilateral cooperation is giving way to multipolar rivalry and conflict. Global norms are eroding. What comes next will define the rest of the century, so the search is on for a new global framework—a rebalancing of power. In The Triangle of Power , Finnish President Alexander Stubb argues that we are living through a hinge moment in history, akin to 1918, 1945, or 1989. A new international system is taking shape, driven by three major forces: the Global West, the Global East, and the Global South. At the center is the escalating competition between the United States and China, as both try to forge bilateral deals and regional alliances, but it is the Global South that will ultimately determine whether the future tilts toward cooperation or fragmentation. Drawing on decades at the front lines of diplomacy and blending personal insight with political and academic experience, Stubb delivers a passionate call for values-based realism and dignified foreign policy—and warns that unless the West learns to listen, it will lose its place in the world it once built.",
-    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0FD45NZLQ.01._LZZZZZZZ_.jpg',
-    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0FD45NZLQ.01._LZZZZZZZ_.jpg'],
+    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0FD45NZLQ.01.LZZZZZZZ.jpg',
+    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0FD45NZLQ.01.LZZZZZZZ.jpg'],
     purchaseLinks: {
       amazon: 'https://www.amazon.com/dp/B0FD45NZLQ'
     },
@@ -1793,8 +1793,8 @@ export const INITIAL_BOOKS: Book[] = [
     price: 18.99,
     originalPrice: 18.99,
     summary: "AN INSTANT NEW YORK TIMES BESTSELLER Work is changing for everyone, everywhere. Standing still isn't an option. Ryan Roslansky and Aneesh Raman, CEO and Chief Economic Opportunity Officer at LinkedIn, show you how to take control of this moment with clarity and confidence. The future of work is not a distant horizon. It is being built right now. While some of us are experimenting and adapting with AI, most of us are feeling anxious and uncertain, navigating rapid change with outdated playbooks. We're relying on old career advice that assumes the tasks you do at work are static, that the skills you learned in school last decades, and that success comes from moving up a predictable ladder. That's the old world of work, and it's on the way out. Open to Work offers a new path forward. Backed by real-time insights from over a billion professionals on LinkedIn, it is a clear-eyed view of what's actually changing, what skills you really need, and how to stay ahead at work as AI reshapes every aspect of work. You'll meet early movers like Neil, who used AI to get better at his job; Jonetta, who used AI to get a new job; and Taj, who used AI to build a business. You’ll also get expert perspectives across the future of work and careers, helping you discover what will make you competitive in ways no machine can replace. You'll learn how to: Assess which parts of your job to delegate to AI, and which to keep for yourself Build the core human capabilities that will carry you through any technological shift Take action, including with a 30-60-90 day plan Both a roadmap and a rallying cry, Open to Work delivers an urgent truth: change is coming. The only question is whether you harness it or let it overtake you.",
-    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0FX519BHF.01._LZZZZZZZ_.jpg',
-    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0FX519BHF.01._LZZZZZZZ_.jpg'],
+    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0FX519BHF.01.LZZZZZZZ.jpg',
+    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0FX519BHF.01.LZZZZZZZ.jpg'],
     purchaseLinks: {
       amazon: 'https://www.amazon.com/dp/B0FX519BHF'
     },
@@ -1826,8 +1826,8 @@ export const INITIAL_BOOKS: Book[] = [
     price: 19.99,
     originalPrice: 19.99,
     summary: "NEW YORK TIMES BESTSELLER • Perfect for graduation or anyone who needs inspiration to step off the career conveyer belt, this book will teach you how to find your unique dream job and avoid a career you’ll regret. After all, life is a use-it-or-lose-it proposition. Shouldn’t you spend it doing something you love? “I love the book. It’s such a practical guide, and I’m sure it will be a very popular gift for college grads.”—Sara Eisen, CNBC “Fantastic. A variety of useful insights and examples that converge into one story that underlies remarkable success in nearly any field: The relentless hunger to learn about the thing you love.”—James Clear, #1 New York Times bestselling author of Atomic Habits After college Bill Gurley landed a job at a famous tech company. It should have been a dream come true—but he was surprisingly bored. So, Gurley leapt into the unknown, eventually finding his place in the world of venture capital, the beginning of a remarkable investing career. It turns out, Gurley’s happy ending is rare. Nearly six in ten people would do things differently if they could start over. This is the trap of “career regret.” So how can we avoid it? What can we learn from people at the top of their fields who love what they do? The culmination of Gurley’s decade-long project to unpack the components of success, Runnin’ Down a Dream identifies six principles to flourish in your chosen career: the antidotes to career regret. From developing “obsessive” curiosity to the art of building strong peer groups, these timeless principles add up to a playbook not just for success, but a purpose-filled life. Written in Gurley’s straight-talk voice and revealing the captivating stories of industry titans like talent agent Lorrie Bartlett, restaurateur Danny Meyer, and sports executive Sam Hinkie, Runnin’ Down a Dream will inspire a new generation to find their place in the world, while offering a much-needed rebuttal to the idea that hustle and happiness are incompatible.",
-    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0FFGH4CYY.01._LZZZZZZZ_.jpg',
-    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0FFGH4CYY.01._LZZZZZZZ_.jpg'],
+    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0FFGH4CYY.01.LZZZZZZZ.jpg',
+    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0FFGH4CYY.01.LZZZZZZZ.jpg'],
     purchaseLinks: {
       amazon: 'https://www.amazon.com/dp/B0FFGH4CYY'
     },
@@ -1859,8 +1859,8 @@ export const INITIAL_BOOKS: Book[] = [
     price: 14.99,
     originalPrice: 14.99,
     summary: "What if success had nothing to do with motivation—and everything to do with discipline? You know the cycle: bursts of motivation, followed by burnout, guilt, and the quiet promise to “start again Monday.” You’re not lazy. You’re trapped in a system that rewards short-term excitement instead of long-term control. The Power of Discipline breaks that cycle. This isn’t another feel-good book about willpower—it’s a blueprint for transformation . In these pages, Miguel A. Gallardo combines neuroscience, behavioral psychology, and practical systems to help you rewire your habits, reshape your identity, and act with consistency—especially when you don’t feel like it. Imagine waking up each morning already knowing exactly what to do, how to do it, and actually following through. Imagine watching your goals turn into daily habits—and your habits into proof of who you’ve become. Inside the book, you will discover: The hidden science of motivation’s collapse —and the counterintuitive principle that high achievers use to stay unstoppable long after motivation fades. The 10-Step Discipline Blueprint —a framework so effective it quietly powers elite performers, CEOs, and athletes who never rely on willpower alone. The art of environmental engineering —how to reprogram your surroundings so that discipline happens automatically, even when your mind resists. The identity shift no one talks about —why true transformation isn’t about doing more, but becoming someone new from the inside out. The secret “24-Hour Recovery Rule” —a system used by the most consistent people in the world to bounce back instantly from failure and never lose momentum. The 30-Day Discipline Challenge —a guided process that turns abstract goals into automatic behavior in less than a month. Exclusive transformation tools —bonus videos, curated podcasts, academic insights, and a guided journal designed to track your growth and accelerate results. Unlike other self-help books, this one doesn’t stop at inspiration —it trains you to do the work . Every chapter includes tools, prompts, and action steps that make discipline a skill you can master, no matter how busy or distracted life gets. Thirty days from now, you could either have a new identity—or another excuse. The blueprint is here. The tools are ready. The only variable left is you. Click “Buy Now” and prove that this time, you’re not watching transformation happen—you’re living it.",
-    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0G37L2R2P.01._LZZZZZZZ_.jpg',
-    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0G37L2R2P.01._LZZZZZZZ_.jpg'],
+    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0G37L2R2P.01.LZZZZZZZ.jpg',
+    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0G37L2R2P.01.LZZZZZZZ.jpg'],
     purchaseLinks: {
       amazon: 'https://www.amazon.com/dp/B0G37L2R2P'
     },
@@ -1892,8 +1892,8 @@ export const INITIAL_BOOKS: Book[] = [
     price: 13.99,
     originalPrice: 13.99,
     summary: "New York Times Bestseller! From the author of the international bestseller Don't Believe Everything You Think comes a companion guide that transforms the paralyzing cycle of overthinking into clear, intuitive decision-making. Your brain is wired to overthink decisions—not because something's wrong with you, but because you care deeply about making the right choice. If you've ever found yourself trapped in endless loops of \"what if,\" analyzing every option to exhaustion, or seeking everyone's advice while still feeling lost... this book is your way out. The Overthinker's Guide to Making Decisions breaks new ground where \"just trust your gut\" advice has failed you. Unlike traditional approaches that leave you stranded between endless analysis and vague intuition, this book provides a counterintuitive system that bypasses the overthinking loop entirely. This isn't about making perfect choices. It's about making aligned ones from a place of clarity instead of chaos. This step-by-step guide will show you exactly how to: Identify the surprising neurological root of overthinking and how to stop mental spirals before they hijack your mind Apply the step-by-step TRUST framework that walks you through any decision, leaving you with absolute clarity on exactly what to do Use the revolutionary SAGE method to break through analysis paralysis in minutes, transforming overwhelm into a single, clear choice Instantly distinguish between your intuition and fear when making any decision Silence external opinions and reconnect with your inner wisdom so you hear your own voice louder than anyone else's Transform paralyzing fear into psychological freedom, creating space for choices that were previously unimaginable End the exhausting replay of past decisions, releasing regret and creating genuine peace with your choices Develop unshakable emotional resilience so you can make bold decisions knowing you'll thrive regardless of the outcome Recognize actualized decisions: the transformative choices that create the deepest peace, growth, and alignment in your life Uncover the hidden patterns behind your choices with over 70 powerful journaling prompts, reshaping how you decide from a place of alignment, not anxiety Implement 20 ‘Mini Trust Experiments’ that build decision confidence in just days, using low-stakes everyday choices to rewire self-doubt patterns This book isn’t about fixing your mind. It’s about freeing it. You don’t need more advice. You need to trust yourself again. This book won’t tell you what to do. It will help you remember how to listen to the one voice that’s always known. Yours.",
-    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0DWYG9FPZ.01._LZZZZZZZ_.jpg',
-    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0DWYG9FPZ.01._LZZZZZZZ_.jpg'],
+    coverUrl: 'https://images-na.ssl-images-amazon.com/images/P/B0DWYG9FPZ.01.LZZZZZZZ.jpg',
+    galleryUrls: ['https://images-na.ssl-images-amazon.com/images/P/B0DWYG9FPZ.01.LZZZZZZZ.jpg'],
     purchaseLinks: {
       amazon: 'https://www.amazon.com/dp/B0DWYG9FPZ'
     },
