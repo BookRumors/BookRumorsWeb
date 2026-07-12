@@ -565,7 +565,7 @@ export default function HomePage() {
               { id: 'biography', name: 'Biography', icon: '👤' },
               { id: 'business', name: 'Business', icon: '💼' },
               { id: 'romantic', name: 'Romantic', icon: '💖' },
-              { id: 'cookbooks', name: 'Cookbooks', icon: '🍳' }
+              { id: 'fiction', name: 'Fiction', icon: '📚' }
             ].map(cat => (
               <div 
                 key={cat.id}

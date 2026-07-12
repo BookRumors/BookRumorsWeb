@@ -65,32 +65,7 @@ interface StateContextType {
 
 const StateContext = createContext<StateContextType | undefined>(undefined);
 
-const DEFAULT_TRANSACTIONS: Transaction[] = [
-  {
-    id: 'tx-1',
-    authorId: 'author-jkrowling',
-    authorName: 'J. K. Rowling',
-    planName: 'Elite Publisher Portal',
-    amount: 199.00,
-    paymentMethod: 'Stripe',
-    transactionId: 'ch_3M4oN1LkdG4aV25o0X9zYpQ8',
-    date: '2026-06-01 10:30',
-    status: 'success',
-    invoiceNumber: 'INV-2026-001'
-  },
-  {
-    id: 'tx-2',
-    authorId: 'author-jamesclear',
-    authorName: 'James Clear',
-    planName: 'Pro Author Plan',
-    amount: 79.00,
-    paymentMethod: 'Razorpay',
-    transactionId: 'pay_KzdH94x08zNpLQ',
-    date: '2026-06-15 14:20',
-    status: 'success',
-    invoiceNumber: 'INV-2026-002'
-  }
-];
+const DEFAULT_TRANSACTIONS: Transaction[] = [];
 
 const DEFAULT_NOTIFICATIONS: Notification[] = [
   {
