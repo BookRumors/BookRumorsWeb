@@ -13,42 +13,52 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({ planId, onClose })
   const { processPayment } = useAppState();
   const plan = SUBSCRIPTION_PLANS.find(p => p.id === planId);
 
+  const clientId = process.env.NEXT_PUBLIC_PAYPAL_CLIENT_ID || 'BAAUiyCYciEufnlVI_0IZlV4nJJBZurvQO6qj506_bfzQ2lJ3KPn6qOD_alJ6FJE1oZClOsuVN787gfBGQ';
+  
+  const [activeClientId, setActiveClientId] = useState(clientId);
   const [sdkReady, setSdkReady] = useState(false);
+  const [usingFallback, setUsingFallback] = useState(false);
   const [step, setStep] = useState<'details' | 'processing' | 'success'>('details');
 
   if (!plan) return null;
 
-  const clientId = process.env.NEXT_PUBLIC_PAYPAL_CLIENT_ID || 'AQikVI5MeFF_4pPELXwOgAhu48ehOlixkeWfjf2sxFSmPs';
-
-  // Dynamically load PayPal SDK script
+  // Dynamically load PayPal SDK script with fallback support
   useEffect(() => {
     const scriptId = 'paypal-sdk-script';
     
-    // Check if script is already present
-    if (document.getElementById(scriptId) || (window as any).paypal) {
-      setSdkReady(true);
-      return;
+    // Remove any failed or existing script from previous render attempts
+    const existingScript = document.getElementById(scriptId);
+    if (existingScript) {
+      if ((window as any).paypal && !usingFallback) {
+        setSdkReady(true);
+        return;
+      }
+      existingScript.remove();
     }
 
+    setSdkReady(false);
     const script = document.createElement('script');
     script.id = scriptId;
-    script.src = `https://www.paypal.com/sdk/js?client-id=${clientId}&currency=USD`;
+    script.src = `https://www.paypal.com/sdk/js?client-id=${activeClientId}&currency=USD`;
     script.type = 'text/javascript';
     script.async = true;
     script.onload = () => {
       setSdkReady(true);
     };
     script.onerror = () => {
-      console.error('Failed to load PayPal SDK script');
+      console.warn(`Failed to load PayPal SDK with client-id: ${activeClientId}`);
+      // If loading fails (e.g. because the Live ID is pending account activation), fall back to working Sandbox ID
+      const sandboxFallbackId = 'AQikVI5MeFF_4pPELXwOgAhu48ehOlixkeWfjf2sxFSmPs';
+      if (activeClientId !== sandboxFallbackId) {
+        console.info('Switching to working Sandbox client-id fallback for testing...');
+        setActiveClientId(sandboxFallbackId);
+        setUsingFallback(true);
+      }
     };
     document.body.appendChild(script);
+  }, [activeClientId]);
 
-    return () => {
-      // Keep script loaded globally to prevent reload flicker, cleanup is handled automatically by page transitions
-    };
-  }, [clientId]);
-
-  // Render PayPal Smart Buttons once SDK is loaded and target container is present
+  // Render PayPal Smart Buttons
   useEffect(() => {
     if (sdkReady && step === 'details') {
       const container = document.getElementById('paypal-button-container');
@@ -92,7 +102,7 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({ planId, onClose })
             },
             onError: (err: any) => {
               console.error('PayPal SDK Checkout Error:', err);
-              alert('PayPal Sandbox checkout failed or was cancelled. Please try again.');
+              alert('PayPal checkout failed or was cancelled. Please try again.');
             },
             style: {
               layout: 'vertical',
@@ -129,8 +139,24 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({ planId, onClose })
 
         {step === 'details' && (
           <div style={{ padding: '24px' }}>
+            {usingFallback && (
+              <div style={{ 
+                background: '#FFF9E6', 
+                border: '1px solid #FFE0B2', 
+                color: '#B78103', 
+                padding: '10px 12px', 
+                borderRadius: '8px', 
+                fontSize: '12px', 
+                marginBottom: '16px',
+                textAlign: 'left',
+                lineHeight: '1.4'
+              }}>
+                ⚠️ <strong>Live credentials pending:</strong> Your PayPal Live credentials are currently inactive because your developer account is under review (visible in your PayPal console's orange banner). Checkout loaded in <strong>Sandbox Mode</strong> for testing.
+              </div>
+            )}
+
             <div style={{ marginBottom: '16px', fontSize: '14px', color: 'var(--text-dark)', lineHeight: '1.5' }}>
-              Complete your subscription upgrade using PayPal Sandbox. Click the PayPal button below to check out.
+              Complete your subscription upgrade using PayPal. Click the button below to check out.
             </div>
 
             {!sdkReady ? (
