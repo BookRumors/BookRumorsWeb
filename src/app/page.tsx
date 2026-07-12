@@ -149,7 +149,8 @@ export default function HomePage() {
   const [leftIndex, setLeftIndex] = useState(0);
   const [rightIndex, setRightIndex] = useState(0);
 
-  const activeAuthors = authors.length > 0 ? authors : INITIAL_AUTHORS;
+  // Use only the fixed set of verified authors with real photos (excludes new signups & placeholders)
+  const activeAuthors = INITIAL_AUTHORS.filter(a => a.profileImage && a.profileImage !== 'placeholder');
   const leftAuthors = activeAuthors.filter((_, idx) => idx % 2 === 0);
   const rightAuthors = activeAuthors.filter((_, idx) => idx % 2 === 1);
 
@@ -282,11 +283,29 @@ export default function HomePage() {
               }}>
                 {currentLeftAuthor && (
                   <div key={currentLeftAuthor.id} className="carousel-fade" style={{ width: '100%', height: '100%' }}>
-                    <img 
-                      src={currentLeftAuthor.profileImage} 
-                      alt={currentLeftAuthor.name} 
-                      style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                    />
+                    {currentLeftAuthor.profileImage === 'placeholder' || !currentLeftAuthor.profileImage ? (
+                      <div style={{ 
+                        width: '100%', 
+                        height: '100%', 
+                        background: 'var(--primary-light)', 
+                        display: 'flex', 
+                        alignItems: 'center', 
+                        justifyContent: 'center',
+                        color: 'var(--primary)',
+                        fontSize: '48px',
+                        fontWeight: 'bold',
+                        fontFamily: 'Outfit'
+                      }}>
+                        {currentLeftAuthor.name.charAt(0)}
+                      </div>
+                    ) : (
+                      <img 
+                        src={currentLeftAuthor.profileImage} 
+                        alt={currentLeftAuthor.name} 
+                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                        referrerPolicy="no-referrer"
+                      />
+                    )}
                     <div style={{
                       position: 'absolute',
                       bottom: '0',
@@ -321,11 +340,29 @@ export default function HomePage() {
               }}>
                 {currentRightAuthor && (
                   <div key={currentRightAuthor.id} className="carousel-fade" style={{ width: '100%', height: '100%' }}>
-                    <img 
-                      src={currentRightAuthor.profileImage} 
-                      alt={currentRightAuthor.name} 
-                      style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                    />
+                    {currentRightAuthor.profileImage === 'placeholder' || !currentRightAuthor.profileImage ? (
+                      <div style={{ 
+                        width: '100%', 
+                        height: '100%', 
+                        background: 'var(--primary-light)', 
+                        display: 'flex', 
+                        alignItems: 'center', 
+                        justifyContent: 'center',
+                        color: 'var(--primary)',
+                        fontSize: '48px',
+                        fontWeight: 'bold',
+                        fontFamily: 'Outfit'
+                      }}>
+                        {currentRightAuthor.name.charAt(0)}
+                      </div>
+                    ) : (
+                      <img 
+                        src={currentRightAuthor.profileImage} 
+                        alt={currentRightAuthor.name} 
+                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                        referrerPolicy="no-referrer"
+                      />
+                    )}
                     <div style={{
                       position: 'absolute',
                       bottom: '0',
