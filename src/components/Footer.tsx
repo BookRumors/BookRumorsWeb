@@ -61,7 +61,7 @@ export const Footer: React.FC = () => {
         {/* Brand & Footer Nav */}
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '24px', borderTop: '1px solid var(--border-light)', paddingTop: '40px' }}>
           <Link href="/" style={{ fontSize: '22px', fontWeight: '800', fontFamily: 'Outfit', letterSpacing: '-0.5px' }}>
-            BOOK<span style={{ color: 'var(--primary)' }}>VERSE</span>
+            BOOK<span style={{ color: 'var(--primary)' }}>RUMORS</span>
           </Link>
 
           <div style={{ display: 'flex', gap: '24px', fontSize: '14px', color: 'var(--text-muted)' }}>

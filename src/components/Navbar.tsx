@@ -115,11 +115,13 @@ export const Navbar: React.FC = () => {
             </li>
 
             {/* For Authors */}
-            <li>
-              <Link href="/authors-info" className={pathname === '/authors-info' ? 'active' : ''}>
-                For Authors
-              </Link>
-            </li>
+            {currentUser?.role !== 'author' && (
+              <li>
+                <Link href="/authors-info" className={pathname === '/authors-info' ? 'active' : ''}>
+                  For Authors
+                </Link>
+              </li>
+            )}
 
             {/* Pricing */}
             <li>
@@ -141,6 +143,15 @@ export const Navbar: React.FC = () => {
                 Contact
               </Link>
             </li>
+
+            {/* Dashboard Link for Authors */}
+            {currentUser?.role === 'author' && (
+              <li>
+                <Link href="/dashboard" className={pathname === '/dashboard' ? 'active' : ''}>
+                  Dashboard
+                </Link>
+              </li>
+            )}
           </ul>
         </nav>
 
@@ -173,7 +184,11 @@ export const Navbar: React.FC = () => {
           
           {currentUser ? (
             <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-              <div style={{ textAlign: 'right', fontSize: '12px' }}>
+              <div 
+                onClick={() => router.push(currentUser.role === 'author' ? '/dashboard' : currentUser.role === 'admin' ? '/admin' : '/catalog')}
+                style={{ textAlign: 'right', fontSize: '12px', cursor: 'pointer' }}
+                title="Go to workspace"
+              >
                 <span style={{ display: 'block', fontWeight: 'bold', color: 'var(--text-dark)' }}>{currentUser.name}</span>
                 <span style={{ color: 'var(--primary)', fontWeight: '600', textTransform: 'capitalize' }}>
                   {currentUser.role}

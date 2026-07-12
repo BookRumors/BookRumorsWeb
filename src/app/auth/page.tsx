@@ -5,6 +5,7 @@ import { useRouter, useSearchParams } from 'next/navigation';
 import { useAppState } from '@/context/StateContext';
 import { auth, googleProvider } from '@/firebase';
 import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, updateProfile } from 'firebase/auth';
+import { supabase } from '@/supabase';
 
 function AuthContent() {
   const router = useRouter();
@@ -83,6 +84,26 @@ function AuthContent() {
         }
       } catch (error: any) {
         console.error('Login error:', error);
+        
+        // If credentials fail, check if the email address exists in the database
+        try {
+          const { data: authorData } = await supabase.from('br_authors').select('id').eq('email', email.toLowerCase());
+          const { data: readerData } = await supabase.from('br_readers').select('id').eq('email', email.toLowerCase());
+          const isRegistered = (authorData && authorData.length > 0) || (readerData && readerData.length > 0);
+          const isAdmin = email.toLowerCase() === 'shubhk0121@gmail.com';
+          
+          if (!isRegistered && !isAdmin) {
+            setErrorMsg('Account not found. Redirecting to registration page...');
+            setTimeout(() => {
+              setMode('register');
+              setErrorMsg('');
+            }, 1800);
+            return;
+          }
+        } catch (dbErr) {
+          console.error('DB account check failed:', dbErr);
+        }
+
         if (error.code === 'auth/invalid-credential' || error.code === 'auth/user-not-found' || error.code === 'auth/wrong-password') {
           setErrorMsg('Invalid email or password credentials.');
         } else {

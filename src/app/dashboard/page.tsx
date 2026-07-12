@@ -213,9 +213,11 @@ export default function AuthorDashboard() {
             <button className={`dashboard-nav-item ${activeTab === 'books' ? 'active' : ''}`} onClick={() => setActiveTab('books')}>
               📚 My Books ({authorBooks.length})
             </button>
-            <button className={`dashboard-nav-item ${activeTab === 'plans' ? 'active' : ''}`} onClick={() => setActiveTab('plans')}>
-              💳 Subscription Tiers
-            </button>
+            {!activePlan && (
+              <button className={`dashboard-nav-item ${activeTab === 'plans' ? 'active' : ''}`} onClick={() => setActiveTab('plans')}>
+                💳 Subscription Tiers
+              </button>
+            )}
             <button className={`dashboard-nav-item ${activeTab === 'billing' ? 'active' : ''}`} onClick={() => setActiveTab('billing')}>
               🧾 Invoices & Billing
             </button>

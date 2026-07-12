@@ -1,10 +1,26 @@
 'use client';
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
+import { useAppState } from '@/context/StateContext';
 
 export default function ForAuthorsPage() {
   const router = useRouter();
+  const { currentUser } = useAppState();
+
+  useEffect(() => {
+    if (currentUser?.role === 'author') {
+      router.replace('/dashboard');
+    }
+  }, [currentUser, router]);
+
+  if (currentUser?.role === 'author') {
+    return (
+      <div style={{ minHeight: '60vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <p>Redirecting to dashboard...</p>
+      </div>
+    );
+  }
 
   return (
     <div style={{ background: 'var(--bg-cream)', paddingBottom: '60px' }}>
