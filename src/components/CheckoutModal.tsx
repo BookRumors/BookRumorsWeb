@@ -48,7 +48,7 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({ planId, onClose })
     script.onerror = () => {
       console.warn(`Failed to load PayPal SDK with client-id: ${activeClientId}`);
       // If loading fails (e.g. because the Live ID is pending account activation), fall back to working Sandbox ID
-      const sandboxFallbackId = 'AQikVI5MeFF_4pPELXwOgAhu48ehOlixkeWfjf2sxFSmPs';
+      const sandboxFallbackId = 'AQikVI5MeFF_4pPELXwOgAhu48ehOlixkeWfjf2sxFSmPsTkG8k6Fo-9Uhnkpvtr0qIr8UPIL2tV6aer';
       if (activeClientId !== sandboxFallbackId) {
         console.info('Switching to working Sandbox client-id fallback for testing...');
         setActiveClientId(sandboxFallbackId);
