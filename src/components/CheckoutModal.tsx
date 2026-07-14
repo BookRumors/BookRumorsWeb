@@ -13,7 +13,7 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({ planId, onClose })
   const { processPayment } = useAppState();
   const plan = SUBSCRIPTION_PLANS.find(p => p.id === planId);
 
-  const clientId = process.env.NEXT_PUBLIC_PAYPAL_CLIENT_ID || 'BAAUiyCYciEufnlVI_0IZlV4nJJBZurvQO6qj506_bfzQ2lJ3KPn6qOD_alJ6FJE1oZClOsuVN787gfBGQ';
+  const clientId = process.env.NEXT_PUBLIC_PAYPAL_CLIENT_ID || 'BAACFZ-rHFNbjQCcnlkUNh8GXxx0R8xOBa5jR6cBETw7GeysfYi3JKhV9sQuOWUUOkgJa8y6nB-L2T6IXA';
   
   const [activeClientId, setActiveClientId] = useState(clientId);
   const [sdkReady, setSdkReady] = useState(false);
