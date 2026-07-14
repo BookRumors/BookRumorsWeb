@@ -26,6 +26,7 @@ function AuthContent() {
   const [name, setName] = useState('');
   const [password, setPassword] = useState('');
   const [errorMsg, setErrorMsg] = useState('');
+  const [authLoading, setAuthLoading] = useState(false);
 
   // Author-only registration fields
   const [regBio, setRegBio] = useState('');
@@ -45,6 +46,7 @@ function AuthContent() {
 
   const handleAuthSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    if (authLoading) return;
     setErrorMsg('');
 
     if (!email) {
@@ -52,7 +54,9 @@ function AuthContent() {
       return;
     }
 
-    if (mode === 'login') {
+    setAuthLoading(true);
+    try {
+      if (mode === 'login') {
       // Login flow
       try {
         const userCredential = await signInWithEmailAndPassword(auth, email, password);
@@ -186,10 +190,15 @@ function AuthContent() {
         }
       }
     }
+    } finally {
+      setAuthLoading(false);
+    }
   };
 
   const handleGoogleSignIn = async () => {
+    if (authLoading) return;
     setErrorMsg('');
+    setAuthLoading(true);
     try {
       const result = await signInWithPopup(auth, googleProvider);
       const user = result.user;
@@ -219,6 +228,8 @@ function AuthContent() {
       } else {
         setErrorMsg(error.message || 'An error occurred during Google authentication.');
       }
+    } finally {
+      setAuthLoading(false);
     }
   };
 
@@ -388,8 +399,13 @@ function AuthContent() {
               </>
             )}
 
-            <button type="submit" className="btn btn-primary" style={{ width: '100%', borderRadius: '8px', marginTop: '12px' }}>
-              {mode === 'login' ? 'Sign In' : 'Register Account'}
+            <button 
+              type="submit" 
+              className="btn btn-primary" 
+              style={{ width: '100%', borderRadius: '8px', marginTop: '12px' }}
+              disabled={authLoading}
+            >
+              {authLoading ? 'Please wait...' : (mode === 'login' ? 'Sign In' : 'Register Account')}
             </button>
 
             <div style={{ display: 'flex', alignItems: 'center', margin: '20px 0', color: 'var(--text-muted)', fontSize: '12px' }}>
@@ -401,6 +417,7 @@ function AuthContent() {
             <button
               type="button"
               onClick={handleGoogleSignIn}
+              disabled={authLoading}
               style={{
                 width: '100%',
                 padding: '12px',

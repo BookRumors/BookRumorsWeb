@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { useAppState } from '../context/StateContext';
 import { SUBSCRIPTION_PLANS } from '../mockData';
 
@@ -19,6 +19,8 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({ planId, onClose })
   const [sdkReady, setSdkReady] = useState(false);
   const [usingFallback, setUsingFallback] = useState(false);
   const [step, setStep] = useState<'details' | 'processing' | 'success'>('details');
+
+  const buttonsRenderedRef = useRef(false);
 
   if (!plan) return null;
 
@@ -62,7 +64,8 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({ planId, onClose })
   useEffect(() => {
     if (sdkReady && step === 'details') {
       const container = document.getElementById('paypal-button-container');
-      if (container) {
+      if (container && !buttonsRenderedRef.current) {
+        buttonsRenderedRef.current = true;
         container.innerHTML = ''; // Clear previous renderings to avoid duplicates
         
         try {
@@ -113,9 +116,17 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({ planId, onClose })
           }).render('#paypal-button-container');
         } catch (e) {
           console.error('Error initializing PayPal Buttons:', e);
+          buttonsRenderedRef.current = false;
         }
       }
     }
+
+    return () => {
+      // If we are leaving the details step (unmounting the container), reset the ref
+      if (step !== 'details') {
+        buttonsRenderedRef.current = false;
+      }
+    };
   }, [sdkReady, step, planId, plan.name, plan.price, onClose]);
 
   return (

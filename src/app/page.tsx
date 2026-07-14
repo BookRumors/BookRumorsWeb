@@ -524,7 +524,7 @@ export default function HomePage() {
                   width: '240px',
                   height: '320px'
                 }}>
-                  <Image src={topBook.coverUrl} alt={topBook.title} fill style={{ objectFit: 'cover' }} priority />
+                  <Image src={topBook.coverUrl} alt={topBook.title} fill style={{ objectFit: 'cover' }} sizes="(max-width: 768px) 100vw, 240px" priority />
                 </div>
               </div>
 
@@ -641,7 +641,7 @@ export default function HomePage() {
                   boxShadow: 'var(--shadow-md)',
                   position: 'relative'
                 }}>
-                  <Image src="/authors/jkrowling.jpg" alt="Rowling" fill style={{ objectFit: 'cover' }} />
+                  <Image src="/authors/jkrowling.jpg" alt="Rowling" fill style={{ objectFit: 'cover' }} sizes="(max-width: 768px) 100vw, 120px" />
                 </div>
               <h3 style={{ fontSize: '28px', color: 'var(--primary)', marginBottom: '8px' }}>J. K. Rowling</h3>
               <p style={{ fontWeight: 'bold', fontSize: '14px', color: 'var(--text-dark)', marginBottom: '16px' }}>Author Best Selling</p>
