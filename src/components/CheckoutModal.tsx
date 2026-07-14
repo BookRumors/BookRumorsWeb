@@ -97,9 +97,10 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({ planId, onClose })
                   alert('Payment approved by PayPal, but subscription update failed. Please contact support.');
                   setStep('details');
                 }
-              } catch (err) {
+              } catch (err: any) {
                 console.error('PayPal Capture Error:', err);
-                alert('An error occurred while finalizing your PayPal payment.');
+                const errMsg = err?.message || (typeof err === 'object' ? JSON.stringify(err) : String(err));
+                alert(`An error occurred while finalizing your PayPal payment: ${errMsg}`);
                 setStep('details');
               }
             },
