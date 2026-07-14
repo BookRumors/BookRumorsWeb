@@ -102,7 +102,7 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({ planId, onClose })
                   setStep('success');
                   setTimeout(() => {
                     onClose();
-                  }, 2000);
+                  }, 4000); // Increased timeout so users can read the success message
                 } else {
                   alert('Payment approved by PayPal, but subscription update failed. Please contact support.');
                   setStep('details');
@@ -178,7 +178,8 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({ planId, onClose })
             )}
 
             <div style={{ marginBottom: '16px', fontSize: '14px', color: 'var(--text-dark)', lineHeight: '1.5' }}>
-              Complete your subscription upgrade using PayPal. Click the button below to check out.
+              Complete your subscription upgrade using PayPal.<br/><br/>
+              <strong>Note:</strong> Clicking the button will open a new secure PayPal window. Please complete your login and payment there, and do not close the window manually.
             </div>
 
             {!sdkReady ? (
