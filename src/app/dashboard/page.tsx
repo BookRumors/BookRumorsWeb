@@ -266,7 +266,7 @@ export default function AuthorDashboard() {
                                 background: 'var(--bg-white)'
                               }}
                             >
-                              <img src={book.coverUrl} alt={book.title} style={{ width: '60px', height: '80px', objectFit: 'cover', borderRadius: '4px' }} referrerPolicy="no-referrer" />
+                              <img src={book.coverUrl} alt={book.title} style={{ width: '60px', height: '80px', objectFit: 'contain', borderRadius: '4px' }} referrerPolicy="no-referrer" />
                               
                               <div style={{ flex: 1 }}>
                                 <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>

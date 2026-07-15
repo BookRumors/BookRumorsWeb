@@ -353,7 +353,7 @@ export default function AdminPage() {
                             alignItems: 'flex-start'
                           }}
                         >
-                          <img src={book.coverUrl} alt={book.title} style={{ width: '100px', height: '140px', objectFit: 'cover', borderRadius: '6px', border: '1px solid var(--border-light)' }} referrerPolicy="no-referrer" />
+                          <img src={book.coverUrl} alt={book.title} style={{ width: '100px', height: '140px', objectFit: 'contain', borderRadius: '6px', border: '1px solid var(--border-light)' }} referrerPolicy="no-referrer" />
                           
                           <div>
                             {isEditing ? (
@@ -508,7 +508,7 @@ export default function AdminPage() {
                         return (
                           <tr key={book.id} style={{ borderBottom: '1px solid var(--bg-cream)' }}>
                             <td style={{ padding: '8px' }}>
-                              <img src={book.coverUrl} alt="" style={{ width: '35px', height: '48px', objectFit: 'cover', borderRadius: '2px' }} referrerPolicy="no-referrer" />
+                              <img src={book.coverUrl} alt="" style={{ width: '35px', height: '48px', objectFit: 'contain', borderRadius: '2px' }} referrerPolicy="no-referrer" />
                             </td>
                             <td style={{ padding: '8px', fontWeight: 'bold' }}>{book.title}</td>
                             <td style={{ padding: '8px' }}>{book.authorName}</td>

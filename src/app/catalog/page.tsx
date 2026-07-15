@@ -289,7 +289,7 @@ function CatalogContent() {
                       </button>
 
                       <div className="book-card-img-wrapper">
-                        <Image src={book.coverUrl} className="book-card-img" alt={book.title} width={240} height={320} style={{ objectFit: 'cover' }} />
+                        <Image src={book.coverUrl} className="book-card-img" alt={book.title} width={240} height={320} style={{ objectFit: 'contain' }} />
                       </div>
                       
                       <div className="book-card-info">

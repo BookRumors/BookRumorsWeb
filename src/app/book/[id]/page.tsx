@@ -99,7 +99,7 @@ export default function BookDetailsPage() {
                 position: 'relative'
               }}
             >
-              <Image src={book.coverUrl} alt={book.title} fill style={{ objectFit: 'cover' }} priority />
+              <Image src={book.coverUrl} alt={book.title} fill style={{ objectFit: 'contain' }} priority />
             </div>
 
             {/* Read Sample & Video Trailer Action Triggers */}

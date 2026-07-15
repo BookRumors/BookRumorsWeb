@@ -109,7 +109,7 @@ const GenreCarousel: React.FC<GenreCarouselProps> = ({ title, books, genreId, on
             <div className="book-card" style={{ height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
               <div>
                 <div className="book-card-img-wrapper">
-                  <Image src={book.coverUrl} className="book-card-img" alt={book.title} width={240} height={320} style={{ objectFit: 'cover' }} />
+                  <Image src={book.coverUrl} className="book-card-img" alt={book.title} width={240} height={320} style={{ objectFit: 'contain' }} />
                 </div>
                 <div className="book-card-info" style={{ padding: '16px 0 0 0' }}>
                   <span className="book-card-genre" style={{ color: 'var(--primary)', fontWeight: 'bold', fontSize: '11px', textTransform: 'uppercase' }}>
@@ -251,7 +251,7 @@ export default function HomePage() {
                     onMouseEnter={(e) => { e.currentTarget.style.borderColor = 'var(--primary)'; }}
                     onMouseLeave={(e) => { e.currentTarget.style.borderColor = 'var(--border-light)'; }}
                   >
-                    <Image src={book.coverUrl} alt={book.title} width={45} height={60} style={{ objectFit: 'cover', borderRadius: '4px' }} />
+                    <Image src={book.coverUrl} alt={book.title} width={45} height={60} style={{ objectFit: 'contain', borderRadius: '4px' }} />
                     <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
                       <span style={{ fontSize: '13px', fontWeight: '700', color: 'var(--text-dark)', lineHeight: '1.2' }}>{book.title}</span>
                       <span style={{ fontSize: '11px', color: 'var(--text-muted)', margin: '2px 0 4px 0' }}>{book.authorName}</span>
@@ -524,7 +524,7 @@ export default function HomePage() {
                   width: '240px',
                   height: '320px'
                 }}>
-                  <Image src={topBook.coverUrl} alt={topBook.title} fill style={{ objectFit: 'cover' }} sizes="(max-width: 768px) 100vw, 240px" priority />
+                  <Image src={topBook.coverUrl} alt={topBook.title} fill style={{ objectFit: 'contain' }} sizes="(max-width: 768px) 100vw, 240px" priority />
                 </div>
               </div>
 
@@ -612,7 +612,7 @@ export default function HomePage() {
                   <div key={book.id} onClick={() => router.push(`/book/${book.id}`)} style={{ cursor: 'pointer' }}>
                     <div className="book-card" style={{ padding: '12px' }}>
                       <div className="book-card-img-wrapper" style={{ margin: '0 0 12px 0' }}>
-                        <Image src={book.coverUrl} className="book-card-img" alt={book.title} width={240} height={320} style={{ objectFit: 'cover' }} />
+                        <Image src={book.coverUrl} className="book-card-img" alt={book.title} width={240} height={320} style={{ objectFit: 'contain' }} />
                       </div>
                       <h4 style={{ fontSize: '14px', margin: '0 0 4px 0', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{book.title}</h4>
                       <span style={{ fontSize: '13px', fontWeight: '700', color: 'var(--primary)' }}>${book.price.toFixed(2)}</span>
@@ -669,7 +669,7 @@ export default function HomePage() {
               <div key={book.id} onClick={() => router.push(`/book/${book.id}`)} style={{ cursor: 'pointer' }}>
                 <div className="book-card">
                   <div className="book-card-img-wrapper">
-                    <Image src={book.coverUrl} className="book-card-img" alt={book.title} width={240} height={320} style={{ objectFit: 'cover' }} />
+                    <Image src={book.coverUrl} className="book-card-img" alt={book.title} width={240} height={320} style={{ objectFit: 'contain' }} />
                   </div>
                   <div className="book-card-info">
                     <span className="book-card-genre">{book.genre}</span>
