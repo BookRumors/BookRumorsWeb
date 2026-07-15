@@ -56,12 +56,12 @@ export default function PricingPage() {
               </div>
 
               <ul style={{ listStyle: 'none', padding: 0, fontSize: '13px', color: 'var(--text-muted)', lineHeight: '2.0', marginBottom: '32px' }}>
-                <li>✓ Promote up to 2 books</li>
-                <li>✓ Show Cover & Summary</li>
-                <li>✓ Provide 2 Retailer Links</li>
-                <li>✓ Standard catalog ranking</li>
-                <li>✗ Sample Chapter Viewer</li>
-                <li>✗ Book Trailer Embed</li>
+                <li><span style={{ color: '#38a169', marginRight: '6px', fontWeight: 'bold' }}>✓</span> Promote up to 2 books</li>
+                <li><span style={{ color: '#38a169', marginRight: '6px', fontWeight: 'bold' }}>✓</span> Show Cover & Summary</li>
+                <li><span style={{ color: '#38a169', marginRight: '6px', fontWeight: 'bold' }}>✓</span> Provide 2 Retailer Links</li>
+                <li><span style={{ color: '#38a169', marginRight: '6px', fontWeight: 'bold' }}>✓</span> Standard catalog ranking</li>
+                <li><span style={{ color: '#e53e3e', marginRight: '6px', fontWeight: 'bold' }}>✗</span> Sample Chapter Viewer</li>
+                <li><span style={{ color: '#e53e3e', marginRight: '6px', fontWeight: 'bold' }}>✗</span> Book Trailer Embed</li>
               </ul>
             </div>
 
@@ -95,12 +95,12 @@ export default function PricingPage() {
               </div>
 
               <ul style={{ listStyle: 'none', padding: 0, fontSize: '13px', color: 'var(--text-muted)', lineHeight: '2.0', marginBottom: '32px' }}>
-                <li>✓ Promote up to 10 books</li>
-                <li>✓ Priority Catalog Ranking</li>
-                <li>✓ Provide 5 Retailer Links</li>
-                <li>✓ Priority email response</li>
-                <li>✗ Sample Chapter Viewer</li>
-                <li>✗ Book Trailer Embed</li>
+                <li><span style={{ color: '#38a169', marginRight: '6px', fontWeight: 'bold' }}>✓</span> Promote up to 10 books</li>
+                <li><span style={{ color: '#38a169', marginRight: '6px', fontWeight: 'bold' }}>✓</span> Priority Catalog Ranking</li>
+                <li><span style={{ color: '#38a169', marginRight: '6px', fontWeight: 'bold' }}>✓</span> Provide 5 Retailer Links</li>
+                <li><span style={{ color: '#38a169', marginRight: '6px', fontWeight: 'bold' }}>✓</span> Priority email response</li>
+                <li><span style={{ color: '#e53e3e', marginRight: '6px', fontWeight: 'bold' }}>✗</span> Sample Chapter Viewer</li>
+                <li><span style={{ color: '#e53e3e', marginRight: '6px', fontWeight: 'bold' }}>✗</span> Book Trailer Embed</li>
               </ul>
             </div>
 
@@ -149,12 +149,12 @@ export default function PricingPage() {
               </div>
 
               <ul style={{ listStyle: 'none', padding: 0, fontSize: '13px', color: 'var(--text-dark)', lineHeight: '2.0', marginBottom: '32px', opacity: 0.9 }}>
-                <li>✓ Promote Unlimited Books</li>
-                <li>✓ Homepage Featured spots</li>
-                <li>✓ Sample Chapter Upload</li>
-                <li>✓ Book Trailer Embeds</li>
-                <li>✓ Dedicated author profiles</li>
-                <li>✓ 24/7 Email/Chat Support</li>
+                <li><span style={{ color: '#38a169', marginRight: '6px', fontWeight: 'bold' }}>✓</span> Promote Unlimited Books</li>
+                <li><span style={{ color: '#38a169', marginRight: '6px', fontWeight: 'bold' }}>✓</span> Homepage Featured spots</li>
+                <li><span style={{ color: '#38a169', marginRight: '6px', fontWeight: 'bold' }}>✓</span> Sample Chapter Upload</li>
+                <li><span style={{ color: '#38a169', marginRight: '6px', fontWeight: 'bold' }}>✓</span> Book Trailer Embeds</li>
+                <li><span style={{ color: '#38a169', marginRight: '6px', fontWeight: 'bold' }}>✓</span> Dedicated author profiles</li>
+                <li><span style={{ color: '#38a169', marginRight: '6px', fontWeight: 'bold' }}>✓</span> 24/7 Email/Chat Support</li>
               </ul>
             </div>
 
