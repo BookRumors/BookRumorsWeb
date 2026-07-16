@@ -6,6 +6,8 @@ import { useAppState } from '@/context/StateContext';
 import { SUBSCRIPTION_PLANS, Book, Transaction } from '@/mockData';
 import { CheckoutModal } from '@/components/CheckoutModal';
 import { Invoice } from '@/components/Invoice';
+import { storage } from '@/firebase';
+import { ref, uploadBytes, getDownloadURL } from 'firebase/storage';
 
 export default function AuthorDashboard() {
   const router = useRouter();
@@ -39,6 +41,7 @@ export default function AuthorDashboard() {
 
   // Book CRUD states
   const [bookFormMode, setBookFormMode] = useState<'list' | 'add' | 'edit'>('list');
+  const [isUploading, setIsUploading] = useState(false);
   const [selectedBookId, setSelectedBookId] = useState<string | null>(null);
   const [bookForm, setBookForm] = useState({
     title: '',
@@ -131,6 +134,24 @@ export default function AuthorDashboard() {
     });
     setSelectedBookId(book.id);
     setBookFormMode('edit');
+  };
+
+  const handleFileUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (!file || !currentUser) return;
+    
+    setIsUploading(true);
+    try {
+      const storageRef = ref(storage, `covers/${currentUser.id}/${Date.now()}_${file.name}`);
+      const snapshot = await uploadBytes(storageRef, file);
+      const url = await getDownloadURL(snapshot.ref);
+      setBookForm(prev => ({ ...prev, coverUrl: url }));
+    } catch (error) {
+      console.error('Error uploading file:', error);
+      alert('Failed to upload image. Please try again or use a URL.');
+    } finally {
+      setIsUploading(false);
+    }
   };
 
   const handleBookSubmit = (e: React.FormEvent) => {
@@ -414,14 +435,26 @@ export default function AuthorDashboard() {
 
                     <div className="form-group">
                       <label>Book Cover Photo URL *</label>
-                      <input
-                        type="url"
-                        placeholder="https://unsplash.com/photos/..."
-                        value={bookForm.coverUrl}
-                        onChange={(e) => setBookForm(prev => ({ ...prev, coverUrl: e.target.value }))}
-                        className="form-input"
-                        required
-                      />
+                      <div style={{ display: 'flex', gap: '8px', alignItems: 'center' }}>
+                        <input
+                          type="url"
+                          placeholder="https://unsplash.com/photos/..."
+                          value={bookForm.coverUrl}
+                          onChange={(e) => setBookForm(prev => ({ ...prev, coverUrl: e.target.value }))}
+                          className="form-input"
+                          required
+                          style={{ flex: 1 }}
+                        />
+                        <span style={{ fontSize: '14px', color: 'var(--text-muted)' }}>OR</span>
+                        <input 
+                          type="file" 
+                          accept="image/*" 
+                          onChange={handleFileUpload} 
+                          disabled={isUploading}
+                          style={{ maxWidth: '220px', fontSize: '14px' }}
+                        />
+                      </div>
+                      {isUploading && <span style={{ fontSize: '12px', color: 'var(--primary)', marginTop: '4px', display: 'block' }}>Uploading image... Please wait.</span>}
                     </div>
 
                     <div className="form-group">
@@ -527,8 +560,9 @@ export default function AuthorDashboard() {
                         type="submit"
                         className="btn btn-primary"
                         style={{ minWidth: '150px' }}
+                        disabled={isUploading}
                       >
-                        {bookFormMode === 'add' ? 'Submit Listing' : 'Save Changes'}
+                        {isUploading ? 'Uploading...' : (bookFormMode === 'add' ? 'Submit Listing' : 'Save Changes')}
                       </button>
                     </div>
                   </form>
