@@ -1922,10 +1922,9 @@ export const SUBSCRIPTION_PLANS: Subscription[] = [
     price: 19.00,
     duration: '25 days',
     features: [
-      'Promote up to 2 books',
-      'Show cover, synopsis, and 2 purchase links',
-      'Standard catalog search ranking',
-      'Email customer support response in 48h'
+      'Home page listing',
+      'Social media promotion',
+      'Email 30k subscribers'
     ]
   },
   {
@@ -1934,12 +1933,10 @@ export const SUBSCRIPTION_PLANS: Subscription[] = [
     price: 39.00,
     duration: '2 months',
     features: [
-      'Promote up to 10 books',
-      'Featured badge and priority search ranking',
-      'Upload sample chapters and book trailers',
-      'Stripe & Razorpay redirection setup',
-      'Priority email customer support response',
-      '24/7 priority customer support'
+      'Home page listing',
+      'Social media promotion',
+      'Email 50k subscribers',
+      'Customized book covers'
     ]
   },
   {
@@ -1948,11 +1945,12 @@ export const SUBSCRIPTION_PLANS: Subscription[] = [
     price: 49.00,
     duration: '3 months',
     features: [
-      'Promote unlimited books',
-      'Homepage Featured Slider eligibility',
-      'Premium genre carousels showcase eligibility',
-      'Dedicated author spotlight profiling page',
-      'API access to upload catalogue in bulk'
+      'Home page listing',
+      'Social media promotion',
+      'Email 60k subscribers',
+      'Customized book covers',
+      'Sample chapters upload',
+      'Book Trailor embeds'
     ]
   }
 ];

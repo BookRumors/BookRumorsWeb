@@ -56,12 +56,12 @@ export default function PricingPage() {
               </div>
 
               <ul style={{ listStyle: 'none', padding: 0, fontSize: '13px', color: 'var(--text-muted)', lineHeight: '2.0', marginBottom: '32px' }}>
-                <li><span style={{ color: '#38a169', marginRight: '6px', fontWeight: 'bold' }}>✓</span> Promote up to 2 books</li>
-                <li><span style={{ color: '#38a169', marginRight: '6px', fontWeight: 'bold' }}>✓</span> Show Cover & Summary</li>
-                <li><span style={{ color: '#38a169', marginRight: '6px', fontWeight: 'bold' }}>✓</span> Provide 2 Retailer Links</li>
-                <li><span style={{ color: '#38a169', marginRight: '6px', fontWeight: 'bold' }}>✓</span> Standard catalog ranking</li>
-                <li><span style={{ color: '#e53e3e', marginRight: '6px', fontWeight: 'bold' }}>✗</span> Sample Chapter Viewer</li>
-                <li><span style={{ color: '#e53e3e', marginRight: '6px', fontWeight: 'bold' }}>✗</span> Book Trailer Embed</li>
+                <li><span style={{ color: '#38a169', marginRight: '6px', fontWeight: 'bold' }}>✓</span> Home page listing</li>
+                <li><span style={{ color: '#38a169', marginRight: '6px', fontWeight: 'bold' }}>✓</span> Social media promotion</li>
+                <li><span style={{ color: '#38a169', marginRight: '6px', fontWeight: 'bold' }}>✓</span> Email 30k subscribers</li>
+                <li><span style={{ color: '#e53e3e', marginRight: '6px', fontWeight: 'bold' }}>✗</span> Customized book covers</li>
+                <li><span style={{ color: '#e53e3e', marginRight: '6px', fontWeight: 'bold' }}>✗</span> Sample chapters upload</li>
+                <li><span style={{ color: '#e53e3e', marginRight: '6px', fontWeight: 'bold' }}>✗</span> Book Trailor embeds</li>
               </ul>
             </div>
 
@@ -95,12 +95,12 @@ export default function PricingPage() {
               </div>
 
               <ul style={{ listStyle: 'none', padding: 0, fontSize: '13px', color: 'var(--text-muted)', lineHeight: '2.0', marginBottom: '32px' }}>
-                <li><span style={{ color: '#38a169', marginRight: '6px', fontWeight: 'bold' }}>✓</span> Promote up to 10 books</li>
-                <li><span style={{ color: '#38a169', marginRight: '6px', fontWeight: 'bold' }}>✓</span> Priority Catalog Ranking</li>
-                <li><span style={{ color: '#38a169', marginRight: '6px', fontWeight: 'bold' }}>✓</span> Provide 5 Retailer Links</li>
-                <li><span style={{ color: '#38a169', marginRight: '6px', fontWeight: 'bold' }}>✓</span> Priority email response</li>
-                <li><span style={{ color: '#e53e3e', marginRight: '6px', fontWeight: 'bold' }}>✗</span> Sample Chapter Viewer</li>
-                <li><span style={{ color: '#e53e3e', marginRight: '6px', fontWeight: 'bold' }}>✗</span> Book Trailer Embed</li>
+                <li><span style={{ color: '#38a169', marginRight: '6px', fontWeight: 'bold' }}>✓</span> Home page listing</li>
+                <li><span style={{ color: '#38a169', marginRight: '6px', fontWeight: 'bold' }}>✓</span> Social media promotion</li>
+                <li><span style={{ color: '#38a169', marginRight: '6px', fontWeight: 'bold' }}>✓</span> Email 50k subscribers</li>
+                <li><span style={{ color: '#38a169', marginRight: '6px', fontWeight: 'bold' }}>✓</span> Customized book covers</li>
+                <li><span style={{ color: '#e53e3e', marginRight: '6px', fontWeight: 'bold' }}>✗</span> Sample chapters upload</li>
+                <li><span style={{ color: '#e53e3e', marginRight: '6px', fontWeight: 'bold' }}>✗</span> Book Trailor embeds</li>
               </ul>
             </div>
 
@@ -149,12 +149,12 @@ export default function PricingPage() {
               </div>
 
               <ul style={{ listStyle: 'none', padding: 0, fontSize: '13px', color: 'var(--text-dark)', lineHeight: '2.0', marginBottom: '32px', opacity: 0.9 }}>
-                <li><span style={{ color: '#38a169', marginRight: '6px', fontWeight: 'bold' }}>✓</span> Promote Unlimited Books</li>
-                <li><span style={{ color: '#38a169', marginRight: '6px', fontWeight: 'bold' }}>✓</span> Homepage Featured spots</li>
-                <li><span style={{ color: '#38a169', marginRight: '6px', fontWeight: 'bold' }}>✓</span> Sample Chapter Upload</li>
-                <li><span style={{ color: '#38a169', marginRight: '6px', fontWeight: 'bold' }}>✓</span> Book Trailer Embeds</li>
-                <li><span style={{ color: '#38a169', marginRight: '6px', fontWeight: 'bold' }}>✓</span> Dedicated author profiles</li>
-                <li><span style={{ color: '#38a169', marginRight: '6px', fontWeight: 'bold' }}>✓</span> 24/7 Email/Chat Support</li>
+                <li><span style={{ color: '#38a169', marginRight: '6px', fontWeight: 'bold' }}>✓</span> Home page listing</li>
+                <li><span style={{ color: '#38a169', marginRight: '6px', fontWeight: 'bold' }}>✓</span> Social media promotion</li>
+                <li><span style={{ color: '#38a169', marginRight: '6px', fontWeight: 'bold' }}>✓</span> Email 60k subscribers</li>
+                <li><span style={{ color: '#38a169', marginRight: '6px', fontWeight: 'bold' }}>✓</span> Customized book covers</li>
+                <li><span style={{ color: '#38a169', marginRight: '6px', fontWeight: 'bold' }}>✓</span> Sample chapters upload</li>
+                <li><span style={{ color: '#38a169', marginRight: '6px', fontWeight: 'bold' }}>✓</span> Book Trailor embeds</li>
               </ul>
             </div>
 

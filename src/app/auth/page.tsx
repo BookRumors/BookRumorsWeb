@@ -6,6 +6,7 @@ import { useAppState } from '@/context/StateContext';
 import { auth, googleProvider } from '@/firebase';
 import { signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword, updateProfile } from 'firebase/auth';
 import { supabase } from '@/supabase';
+import { ADMIN_CREDENTIALS } from '@/mockData';
 
 function AuthContent() {
   const router = useRouter();
@@ -58,6 +59,25 @@ function AuthContent() {
     try {
       if (mode === 'login') {
       // Login flow
+      
+      // Admin Bypass (Hardcoded login bypassing Firebase)
+      if (email.toLowerCase() === ADMIN_CREDENTIALS.email.toLowerCase() && password === ADMIN_CREDENTIALS.password) {
+        const res = syncFirebaseUser('admin', {
+          uid: 'admin',
+          displayName: 'Administrator',
+          email: ADMIN_CREDENTIALS.email,
+          photoURL: null
+        });
+        if (res.success) {
+          router.push('/admin');
+          return;
+        } else {
+          setErrorMsg(res.error || 'Admin login synchronization failed.');
+          setAuthLoading(false);
+          return;
+        }
+      }
+
       try {
         const userCredential = await signInWithEmailAndPassword(auth, email, password);
         const user = userCredential.user;
