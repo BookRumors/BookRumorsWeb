@@ -42,6 +42,7 @@ export default function AuthorDashboard() {
   // Book CRUD states
   const [bookFormMode, setBookFormMode] = useState<'list' | 'add' | 'edit'>('list');
   const [isUploading, setIsUploading] = useState(false);
+  const [isFetchingDetails, setIsFetchingDetails] = useState(false);
   const [selectedBookId, setSelectedBookId] = useState<string | null>(null);
   const [bookForm, setBookForm] = useState({
     title: '',
@@ -51,7 +52,7 @@ export default function AuthorDashboard() {
     isbn: '',
     language: 'English',
     genre: 'Fiction',
-    price: 0,
+    price: '' as string | number,
     summary: '',
     coverUrl: '',
     sampleChapter: '',
@@ -98,7 +99,7 @@ export default function AuthorDashboard() {
       isbn: '',
       language: 'English',
       genre: categories[0]?.id || 'Fiction',
-      price: 0,
+      price: '' as string | number,
       summary: '',
       coverUrl: '',
       sampleChapter: '',
@@ -134,6 +135,39 @@ export default function AuthorDashboard() {
     });
     setSelectedBookId(book.id);
     setBookFormMode('edit');
+  };
+
+  const fetchBookDetails = async () => {
+    if (!bookForm.isbn) {
+      alert('Please enter an ISBN number first to auto-fill details.');
+      return;
+    }
+    
+    setIsFetchingDetails(true);
+    try {
+      const response = await fetch(`https://www.googleapis.com/books/v1/volumes?q=isbn:${bookForm.isbn}`);
+      const data = await response.json();
+      
+      if (data.items && data.items.length > 0) {
+        const bookInfo = data.items[0].volumeInfo;
+        setBookForm(prev => ({
+          ...prev,
+          title: bookInfo.title || prev.title,
+          subtitle: bookInfo.subtitle || prev.subtitle,
+          publisher: bookInfo.publisher || prev.publisher,
+          publishDate: bookInfo.publishedDate || prev.publishDate,
+          summary: bookInfo.description || prev.summary,
+          coverUrl: bookInfo.imageLinks?.thumbnail?.replace('http:', 'https:') || prev.coverUrl,
+        }));
+      } else {
+        alert('No book found with that ISBN on Google Books.');
+      }
+    } catch (error) {
+      console.error('Error fetching book details:', error);
+      alert('Failed to fetch book details. Please try again.');
+    } finally {
+      setIsFetchingDetails(false);
+    }
   };
 
   const handleFileUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -375,13 +409,25 @@ export default function AuthorDashboard() {
                       </div>
                       <div className="form-group">
                         <label>ISBN Number *</label>
-                        <input
-                          type="text"
-                          value={bookForm.isbn}
-                          onChange={(e) => setBookForm(prev => ({ ...prev, isbn: e.target.value }))}
-                          className="form-input"
-                          required
-                        />
+                        <div style={{ display: 'flex', gap: '8px' }}>
+                          <input
+                            type="text"
+                            value={bookForm.isbn}
+                            onChange={(e) => setBookForm(prev => ({ ...prev, isbn: e.target.value }))}
+                            className="form-input"
+                            required
+                            style={{ flex: 1 }}
+                          />
+                          <button
+                            type="button"
+                            onClick={fetchBookDetails}
+                            disabled={isFetchingDetails}
+                            className="btn btn-secondary"
+                            style={{ padding: '0 12px', whiteSpace: 'nowrap', fontSize: '13px' }}
+                          >
+                            {isFetchingDetails ? 'Fetching...' : 'Auto-fill'}
+                          </button>
+                        </div>
                       </div>
                       <div className="form-group">
                         <label>Publish Date *</label>
@@ -426,7 +472,7 @@ export default function AuthorDashboard() {
                           type="number"
                           step="0.01"
                           value={bookForm.price}
-                          onChange={(e) => setBookForm(prev => ({ ...prev, price: parseFloat(e.target.value) || 0 }))}
+                          onChange={(e) => setBookForm(prev => ({ ...prev, price: e.target.value === '' ? '' : Number(e.target.value) }))}
                           className="form-input"
                           required
                         />
