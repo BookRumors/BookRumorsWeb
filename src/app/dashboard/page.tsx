@@ -145,11 +145,14 @@ export default function AuthorDashboard() {
     
     setIsFetchingDetails(true);
     try {
-      const response = await fetch(`https://www.googleapis.com/books/v1/volumes?q=isbn:${bookForm.isbn}`);
-      const data = await response.json();
+      let found = false;
       
-      if (data.items && data.items.length > 0) {
-        const bookInfo = data.items[0].volumeInfo;
+      // Try Google Books API First
+      const gBooksResponse = await fetch(`https://www.googleapis.com/books/v1/volumes?q=isbn:${bookForm.isbn}`);
+      const gBooksData = await gBooksResponse.json();
+      
+      if (!gBooksData.error && gBooksData.items && gBooksData.items.length > 0) {
+        const bookInfo = gBooksData.items[0].volumeInfo;
         setBookForm(prev => ({
           ...prev,
           title: bookInfo.title || prev.title,
@@ -159,8 +162,31 @@ export default function AuthorDashboard() {
           summary: bookInfo.description || prev.summary,
           coverUrl: bookInfo.imageLinks?.thumbnail?.replace('http:', 'https:') || prev.coverUrl,
         }));
-      } else {
-        alert('No book found with that ISBN on Google Books.');
+        found = true;
+      }
+      
+      // Fallback to OpenLibrary API if Google Books fails or hits quota
+      if (!found) {
+        const olResponse = await fetch(`https://openlibrary.org/api/books?bibkeys=ISBN:${bookForm.isbn}&jscmd=data&format=json`);
+        const olData = await olResponse.json();
+        const bookKey = `ISBN:${bookForm.isbn}`;
+        
+        if (olData[bookKey]) {
+          const bookInfo = olData[bookKey];
+          setBookForm(prev => ({
+            ...prev,
+            title: bookInfo.title || prev.title,
+            subtitle: bookInfo.subtitle || prev.subtitle,
+            publisher: bookInfo.publishers?.[0]?.name || prev.publisher,
+            publishDate: bookInfo.publish_date || prev.publishDate,
+            coverUrl: bookInfo.cover?.large || bookInfo.cover?.medium || prev.coverUrl,
+          }));
+          found = true;
+        }
+      }
+      
+      if (!found) {
+        alert('No book found with that ISBN. The API rate limit might be exceeded or the book is not in the public database.');
       }
     } catch (error) {
       console.error('Error fetching book details:', error);
