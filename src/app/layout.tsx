@@ -3,6 +3,7 @@ import "./globals.css";
 import { StateProvider } from "../context/StateContext";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata: Metadata = {
   title: "BookRumors | Discover and Promote Books Online",
@@ -24,6 +25,7 @@ export default function RootLayout({
           </main>
           <Footer />
         </StateProvider>
+        <Analytics />
       </body>
     </html>
   );
